@@ -1,4 +1,4 @@
-<a href="https://www.jorisgengler.nl/">
+<a target=blank href="https://www.jorisgengler.nl/">
 <footer class="center">
 
    <div class="footertext">
