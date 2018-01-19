@@ -8,14 +8,19 @@
 
 <div class="gridfreshfoodacademy">
 
-  <div class="freshfoodacademy1">
+  <div class="freshfoodacademy1" id="freshfoodacademy1">
     <div class="textvlakwhitedoorzichtigfresh">
       <h3 class="center">Fresh food academy</h3>
     </div>
+
+    <div class="demo">
+      <a href="#sectiontussen1"><span></span><p2 style="color:#000000;">Scroll</p2></a>
+    </div>
+
   </div>
     <div id="sectiontussen1" class="sectiontussen1"></div><!-- lege tussen ruimte van 7vh -->
   <div class="freshfoodacademy2">
-    <img src="images/fresh food academy1.jpg" style="max-width: 95%;"/>
+    <img src="images/rsz_fresh_food_academy1.jpg" style="max-width: 95%;"/>
 
 
   </div>
