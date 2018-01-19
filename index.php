@@ -1,4 +1,4 @@
-<!--DOCTYPE html-->
+<!DOCTYPE html>
 <html lang="nl">
 
 <?php include 'head.php'; ?>
@@ -7,7 +7,7 @@
 
 
 
-<div id="grid "class="grid">
+<div id="grid " class="grid">
 
   <div class="homepage" id="homepage">
     <?php include 'header.php';?> <!-- Roept de header op  -->
