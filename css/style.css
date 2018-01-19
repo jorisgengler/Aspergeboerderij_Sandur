@@ -800,9 +800,12 @@ input[type=submit]:hover {
 
 .gridcontact {
 	display: grid;
+  display: -ms-grid;
   margin-top: 3vh;
 	grid-template-columns: 33vw 33vw 34vw;
+  -ms-grid-columns: 33vw 33vw 34vw;
 	grid-template-rows: 1fr;
+  -ms-grid-rows: 1fr;
 	grid-template-areas:
 
 	"section1contact section2contact section3contact"
@@ -813,6 +816,8 @@ input[type=submit]:hover {
 /*--------------------- section1contact ---------------------*/
 .section1contact{
   grid-area: section1contact;
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
   padding-left: 7%;
   padding-right: 7%;
 }
@@ -820,18 +825,24 @@ input[type=submit]:hover {
 /*--------------------- section2contact ---------------------*/
 .section2contact{
   grid-area: section2contact;
+  -ms-grid-row: 1;
+  -ms-grid-column: 2;
   padding-left: 7%;
   padding-right: 7%;
 }
 /*--------------------- section3contact ---------------------*/
 .section3contact{
   grid-area: section3contact;
+  -ms-grid-row: 1;
+  -ms-grid-column: 3;
   padding-left: 7%;
   padding-right: 7%;
 }
 /*--------------------- section4contact ---------------------*/
 .section4contact{
   grid-area: section4contact;
+  -ms-grid-row: 1;
+  -ms-grid-column: 4;
   padding-left: 7%;
   padding-right: 7%;
   text-align: center;
