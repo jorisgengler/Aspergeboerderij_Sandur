@@ -196,8 +196,11 @@ input[type=submit]:hover {
 /* ---------------------------- Grid homepage ---------------------------- */
 .grid {
 	display: grid;
+  display: -ms-grid;
 	grid-template-columns: 25vw 25vw 25vw 25vw;
+  -ms-grid-columns: 25vw 25vw 25vw 25vw;
 	grid-template-rows: 1fr;
+  -ms-grid-rows: 1fr;
 	grid-template-areas:
   "homepage homepage homepage homepage"
   "sectiontussen1 sectiontussen1 sectiontussen1 sectiontussen1"
@@ -209,9 +212,14 @@ input[type=submit]:hover {
   "sectiontussen5 sectiontussen5 sectiontussen5 sectiontussen5"
  ;
 }
+
+
 /*--------------------- Homepage ---------------------*/
 .homepage{
   grid-area: homepage;
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 4;
 	min-height: 96vh;
   background:url(../images/rsz_183-7953.jpg);
   background-attachment: fixed;
@@ -224,9 +232,12 @@ input[type=submit]:hover {
 
 }
 
+
 /*--------------------- Section1 ---------------------*/
 .section1{
   grid-area: section1;
+  -ms-grid-row: 3;
+  -ms-grid-column: 1;
 	font-family: 'droid_sansregular';
 	color:black;
 	border: 2px #1F4E79; /*blue*/
@@ -241,6 +252,8 @@ input[type=submit]:hover {
 /*--------------------- Section2 ---------------------*/
 .section2{
   grid-area: section2;
+  -ms-grid-row: 3;
+  -ms-grid-column: 2;
 	font-family: 'droid_sansregular';
 	color:black;
 	border: 2px #1F4E79; /*blue*/
@@ -254,6 +267,8 @@ input[type=submit]:hover {
 
 /*--------------------- Section3 ---------------------*/
 .section3{
+  -ms-grid-row: 3;
+  -ms-grid-column: 3;
   grid-area: section3;
 	font-family: 'droid_sansregular';
 	color:black;
@@ -269,6 +284,8 @@ input[type=submit]:hover {
 /*--------------------- Section4 Nieuws ---------------------*/
 .section4{
   grid-area: section4;
+  -ms-grid-row: 3;
+  -ms-grid-column: 4;
 	font-family: 'droid_sansregular';
 	color:black;
 	border: 2px #1F4E79; /*blue*/
@@ -284,12 +301,18 @@ input[type=submit]:hover {
 /*--------------------- Section5 ---------------------*/
 .section5{
   grid-area: section5;
+  -ms-grid-row: 5;
+  -ms-grid-column-span: 2;
+  -ms-grid-column: 1 / 2;
   text-align: center;
 }
 
 /*--------------------- Section6 ---------------------*/
 .section6{
   grid-area: section6;
+  -ms-grid-row: 5;
+  -ms-grid-column: 3;
+  -ms-grid-column-span: 4;
   padding-right: 20%;
   padding-top: 3%;
 }
@@ -297,6 +320,8 @@ input[type=submit]:hover {
 /*--------------------- Section7 ---------------------*/
 .section7{
   grid-area: section7;
+  -ms-grid-row: 7;
+  -ms-grid-column: 1;
   padding-left: 7%;
   padding-right: 7%;
 }
@@ -304,18 +329,24 @@ input[type=submit]:hover {
 /*--------------------- Section8 ---------------------*/
 .section8{
   grid-area: section8;
+  -ms-grid-row: 7;
+  -ms-grid-column: 2;
   padding-left: 7%;
   padding-right: 7%;
 }
 /*--------------------- Section9 ---------------------*/
 .section9{
   grid-area: section9;
+  -ms-grid-row: 7;
+  -ms-grid-column: 3;
   padding-left: 7%;
   padding-right: 7%;
 }
 /*--------------------- Section10 ---------------------*/
 .section10{
   grid-area: section10;
+  -ms-grid-row: 7;
+  -ms-grid-column: 4;
   padding-left: 7%;
   padding-right: 7%;
 }
@@ -323,27 +354,66 @@ input[type=submit]:hover {
 /*--------------------- Sectiontussen1 ---------------------*/
 .sectiontussen1{
 	grid-area: sectiontussen1;
+  -ms-grid-row: 2;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 4;
 	min-height: 7vh;
 }
 /*--------------------- Sectiontussen2 ---------------------*/
 .sectiontussen2{
 	grid-area: sectiontussen2;
+  -ms-grid-row: 4;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 4;
 	min-height: 7vh;
 }
 /*--------------------- Sectiontussen3 ---------------------*/
 .sectiontussen3{
 	grid-area: sectiontussen3;
+  -ms-grid-row: 6;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 4;
 	min-height: 7vh;
 }
 /*--------------------- Sectiontussen4 ---------------------*/
 .sectiontussen4{
 	grid-area: sectiontussen4;
+  -ms-grid-row: 8;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 4;
 	min-height: 7vh;
 }
 /*--------------------- Sectiontussen5 ---------------------*/
 .sectiontussen5{
 	grid-area: sectiontussen5;
+  -ms-grid-row: 9;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 4;
 	min-height: 7vh;
+}
+.sectiontussen6{ /*--------------------- Problems with IE not showing in desktop---------------------*/
+  -ms-grid-row: 10;
+  -ms-grid-column: 1;
+}
+.sectiontussen7{
+  -ms-grid-row: 10;
+  -ms-grid-column: 2;
+}
+.sectiontussen8{
+  -ms-grid-row: 10;
+  -ms-grid-column: 3;
+}
+.sectiontussen9{
+  -ms-grid-row: 10;
+  -ms-grid-column: 4;
+}
+.sectiontussen10{
+  -ms-grid-row: 11;
+  -ms-grid-column: 1;
+}
+.sectiontussen11{
+  -ms-grid-row: 11;
+  -ms-grid-column: 2;
 }
 
 /*--------------------- Button desktop same space ---------------------*/
@@ -408,6 +478,8 @@ input[type=submit]:hover {
 	padding:0 0 5px 0;
 	margin-top: -3%;
 }
+
+
 /*------------------------------- Mobiel versie -------------------------------*/
 @media screen and (max-width: 800px) {
 /* ---------------------------- Grid homepage ---------------------------- */
@@ -783,7 +855,6 @@ input[type=submit]:hover {
   "section3contact"
   "section4contact"
 
-
  ;
 }
 
@@ -831,12 +902,16 @@ input[type=submit]:hover {
 
 }
 
+
 /* ------------------------------------------Recepten page------------------------------------------ */
 .gridreceptenpage {
 	display: grid;
+  display: -ms-grid;
   margin-top: 3vh;
 	grid-template-columns: 33vw 33vw 34vw;
+  -ms-grid-columns: 33vw 33vw 34vw;
 	grid-template-rows: 1fr;
+  -ms-grid-rows: 1fr;
 	grid-template-areas:
   "receptentussen1 receptentussen1 receptentussen1"
 	"receptenpage1 receptenpage2 receptenpage3"
@@ -850,6 +925,9 @@ input[type=submit]:hover {
 /*--------------------- receptenpage1 ---------------------*/
 .receptenpage1{
   grid-area: receptenpage1;
+  -ms-grid-row: 2;
+  -ms-grid-column: 1;
+
   padding-left: 7%;
   padding-right: 7%;
   text-align: center;
@@ -864,6 +942,9 @@ input[type=submit]:hover {
 /*--------------------- receptenpage2 ---------------------*/
 .receptenpage2{
   grid-area: receptenpage2;
+  -ms-grid-row: 2;
+  -ms-grid-column: 2;
+
   padding-left: 7%;
   padding-right: 7%;
   text-align: center;
@@ -877,6 +958,9 @@ input[type=submit]:hover {
 /*--------------------- receptenpage3 ---------------------*/
 .receptenpage3{
   grid-area: receptenpage3;
+  -ms-grid-row: 4;
+  -ms-grid-column: 1;
+
   padding-left: 7%;
   padding-right: 7%;
   text-align: center;
@@ -890,6 +974,9 @@ input[type=submit]:hover {
 /*--------------------- receptenpage4 ---------------------*/
 .receptenpage4{
   grid-area: receptenpage4;
+  -ms-grid-row: 4;
+  -ms-grid-column: 1;
+
   padding-left: 7%;
   padding-right: 7%;
   text-align: center;
@@ -903,6 +990,9 @@ input[type=submit]:hover {
 /*--------------------- receptenpage4 ---------------------*/
 .receptenpage5{
   grid-area: receptenpage5;
+  -ms-grid-row: 4;
+  -ms-grid-column: 2;
+
   padding-left: 7%;
   padding-right: 7%;
   text-align: center;
@@ -916,6 +1006,9 @@ input[type=submit]:hover {
 /*--------------------- receptenpage4 ---------------------*/
 .receptenpage6{
   grid-area: receptenpage6;
+  -ms-grid-row: 2;
+  -ms-grid-column: 3;
+
   padding-left: 7%;
   padding-right: 7%;
   text-align: center;
@@ -930,15 +1023,24 @@ input[type=submit]:hover {
 /*--------------------- Tussen section ---------------------*/
 .receptentussen1{
 	grid-area: receptentussen1;
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 4;
 	min-height: 2vh;
 }
 
 .receptentussen2{
 	grid-area: receptentussen2;
+  -ms-grid-row: 3;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 4;
 	min-height: 7vh;
 }
 .receptentussen3{
 	grid-area: receptentussen3;
+  -ms-grid-row: 5;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 4;
 	min-height: 7vh;
 }
 
@@ -1084,14 +1186,30 @@ input[type=submit]:hover {
   width: 24px;
   height: 24px;
   margin-left: -12px;
-  border-left: 1px solid #000000;
-  border-bottom: 1px solid #000000;
+  border-left: 3px solid #000000;
+  border-bottom: 3px solid #000000;
   -webkit-transform: rotate(-45deg);
   transform: rotate(-45deg);
   -webkit-animation: sdb05 1.5s infinite;
   animation: sdb05 1.5s infinite;
   box-sizing: border-box;
 }
+#freshfoodacademy1 a span {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 24px;
+  height: 24px;
+  margin-left: -12px;
+  border-left: 3px solid #000000;
+  border-bottom: 3px solid #000000;
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  -webkit-animation: sdb05 1.5s infinite;
+  animation: sdb05 1.5s infinite;
+  box-sizing: border-box;
+}
+
 @-webkit-keyframes sdb05 {
   0% {
     -webkit-transform: rotate(-45deg) translate(0, 0);
@@ -1164,7 +1282,7 @@ input[type=submit]:hover {
 
 .freshfoodacademy1{
   grid-area: freshfoodacademy1;
-  background:url(../images/rsz_183-7953.jpg);
+  background:url(../images/dienblad_kroket.jpg);
   background-attachment: fixed;
   background-position: center center;
   background-repeat: no-repeat;
@@ -1172,8 +1290,7 @@ input[type=submit]:hover {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  padding-top: 51%;
-  min-height: 15vh;
+  min-height: 77vh;
 }
 
 .textvlakwhitedoorzichtigfresh{
@@ -1184,8 +1301,22 @@ input[type=submit]:hover {
     padding-bottom: 1%;
     text-align: center;
     font-size: 44px;
+    margin-top: 24%;
 }
 
+
+@media screen and (max-width: 800px) {
+.textvlakwhitedoorzichtigfresh{
+    	border: 1px #1F4E79; /*blue*/
+      /* border-style: solid; */
+      background-color: rgba(255, 255, 255, 0.6);
+      padding-top: 1%;
+      padding-bottom: 1%;
+      text-align: center;
+      font-size: 44px;
+      margin-top: 64%;
+  }
+}/*Media Query Mobiel*/
 
 .freshfoodacademy2{
   grid-area: freshfoodacademy2;
@@ -1204,7 +1335,7 @@ input[type=submit]:hover {
 }
 
 
-}
+
 .freshfoodacademy3{
   grid-area: freshfoodacademy3;
   background-color: gray;
