@@ -57,7 +57,7 @@
       <div class="buttonplacedown">
         <h2>SBS6 op de aspergeboerderij! </h2>
         <!-- <video class="sbs6video" src="videos/sbs6.mp4" width="400" controls></video> -->
-        <img  src="videos/sbs6.png" alt="Boerderij" style="max-width: 95%;">
+        <a href="SBS6_aspergeboerderijsandur.php"><img src="videos/sbs6.png" alt="Boerderij" style="max-width: 95%;"> </a>
 
 
           <br>
