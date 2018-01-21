@@ -14,7 +14,7 @@
     </div>
 
     <div class="demo">
-      <a href="#sectiontussen1"><span></span><p2 style="color:#000000;">Scroll</p2></a>
+      <a href="#sectiontussen1"><span></span></a>
     </div>
 
   </div>
