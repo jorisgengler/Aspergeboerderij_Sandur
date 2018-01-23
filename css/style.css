@@ -147,13 +147,14 @@ input[type=submit]:hover {
 		font-size: 18px;
 		margin-left: 4%;
 		margin-right: 8%;
-		border-radius: 26px;
+		border-radius: 15px;
 		display: inline-block;
 		text-transform: uppercase;
 		text-align: center;
 		vertical-align: middle;
     min-height: 7vh;
     min-width: 37vh;
+    box-shadow: 4px 6px 5px grey;
 }
 .buttoncolorgreen{ 	/*Nieuwsblok*/
     background-color: #1F4E79;
