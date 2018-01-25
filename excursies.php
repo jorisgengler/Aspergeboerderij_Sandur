@@ -16,7 +16,7 @@
   <img  src="images/rsz_excursies.jpg" alt="Boerderij" style="max-width: 100%;">
 
 <div class="textareaexcursies">
-<h2>Arrangement 1:</h2>
+<h4>Arrangement 1:</h4>
 <br>
 <p4>
 <li>Excursie over de teelt van asperges</li>
@@ -42,7 +42,7 @@
      <img  src="images/rsz_excursies.jpg" alt="Boerderij" style="max-width: 100%;">
 
 <div class="textareaexcursies">
-  <h2>Arrangement 1:</h2>
+  <h4>Arrangement 1:</h4>
   <br>
 <p4>
 <li>Excursie over de teelt van asperges</li>
@@ -68,7 +68,7 @@
      <img  src="images/rsz_excursies.jpg" alt="Boerderij" style="max-width: 100%;">
 
 <div class="textareaexcursies">
-  <h2>Smalspoormuseum</h2>
+  <h4>Smalspoormuseum</h4>
     <br>
 <p4>
 <li>Excursie over de teelt van asperges</li>
@@ -96,7 +96,7 @@
  <img  src="images/rsz_excursies.jpg" alt="Boerderij" style="max-width: 100%;">
 
 <div class="textareaexcursies">
-<h2>Arrangement 1:</h2>
+<h4>Arrangement 1:</h4>
 <br>
 <p4>
 <li>Excursie over de teelt van asperges</li>
