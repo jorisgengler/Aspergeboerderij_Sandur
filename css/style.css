@@ -57,6 +57,11 @@ p3{
   font-family: 'droid_sansregular';
   color: #1e1d1d;
 }
+p4{
+  font-family: 'droid_sansregular';
+  font-size: 108%;
+  color: #1e1d1d;
+}
 
 a{
 text-decoration:none;
@@ -1443,4 +1448,22 @@ input[type=submit]:hover {
   padding-top: 1%;
   padding-left: 4%;
   padding-right: 4%;
+}
+
+.arrangementbutton{
+  color: white;
+  padding: 0% 0% 0% 0%;
+  border: none;
+  cursor: pointer;
+  font-size: 20px;
+  margin-left: 4%;
+  margin-right: 8%;
+  border-radius: 15px;
+  display: inline-block;
+  text-transform: uppercase;
+  text-align: center;
+  vertical-align: middle;
+  min-height: 7vh;
+  min-width: 22vh;
+  box-shadow: 4px 6px 5px grey;
 }
