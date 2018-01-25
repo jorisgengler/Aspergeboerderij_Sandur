@@ -28,7 +28,7 @@
 
    <div class="buttonplace">
      <div class="prijsfont"><p>€21,95</p></div>
-     <div class="onderprijs"><p>vanaf prijs, p.p. </p></div>
+     <div class="onderprijs"><p5>vanaf prijs, p.p. </p5></div>
      <a href="contact.php"><div class="arrangementbutton buttoncolorgreen"> <p>Meer +</p></div></a>
    </div>
  <br>
@@ -54,7 +54,7 @@
 
       <div class="buttonplace">
         <div class="prijsfont"><p>€21,95</p></div>
-        <div class="onderprijs"><p>vanaf prijs, p.p. </p></div>
+        <div class="onderprijs"><p5>vanaf prijs, p.p. </p5></div>
         <a href="contact.php"><div class="arrangementbutton buttoncolorgreen"> <p>Meer +</p></div></a>
       </div>
     <br>
@@ -81,7 +81,7 @@
 
     <div class="buttonplace">
       <div class="prijsfont"><p>€21,95</p></div>
-      <div class="onderprijs"><p>vanaf prijs, p.p. </p></div>
+      <div class="onderprijs"><p5>vanaf prijs, p.p. </p5></div>
       <a href="contact.php"><div class="arrangementbutton buttoncolorgreen"> <p>Meer +</p></div></a>
     </div>
     <br>
@@ -108,7 +108,7 @@
 
   <div class="buttonplace">
     <div class="prijsfont"><p>€21,95</p></div>
-    <div class="onderprijs"><p>vanaf prijs, p.p. </p></div>
+    <div class="onderprijs"><p5>vanaf prijs, p.p. </p5></div>
     <a href="contact.php"><div class="arrangementbutton buttoncolorgreen"> <p>Meer +</p></div></a>
   </div>
 <br>
