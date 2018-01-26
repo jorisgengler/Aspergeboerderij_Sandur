@@ -409,26 +409,38 @@ input[type=submit]:hover {
 	min-height: 7vh;
 }
 .sectiontussen6{ /*--------------------- Problems with IE not showing in desktop---------------------*/
+  grid-area: sectiontussen6;
+  min-height: 7vh;
   -ms-grid-row: 10;
   -ms-grid-column: 1;
 }
 .sectiontussen7{
+  grid-area: sectiontussen7;
+  min-height: 7vh;
   -ms-grid-row: 10;
   -ms-grid-column: 2;
 }
 .sectiontussen8{
+  grid-area: sectiontussen8;
+  min-height: 7vh;
   -ms-grid-row: 10;
   -ms-grid-column: 3;
 }
 .sectiontussen9{
+  grid-area: sectiontussen9;
+  min-height: 7vh;
   -ms-grid-row: 10;
   -ms-grid-column: 4;
 }
 .sectiontussen10{
+  grid-area: sectiontussen;
+  min-height: 7vh;
   -ms-grid-row: 11;
   -ms-grid-column: 1;
 }
 .sectiontussen11{
+  min-height: 7vh;
+	grid-area: sectiontussen11;
   -ms-grid-row: 11;
   -ms-grid-column: 2;
 }
@@ -1398,7 +1410,7 @@ input[type=submit]:hover {
   font-family: 'droid_sansregular';
   color:black;
   border: 2px #1F4E79; /*blue*/
-  padding-left: 1%;
+  padding-left: 12%;
   padding-right: 1%;
   margin-left: 11%;
   margin-right: 11%;
@@ -1464,13 +1476,14 @@ input[type=submit]:hover {
   padding-left: 4%;
   padding-right: 4%;
 }
+/* -----------------------arrangementbutton----------------------- */
 .arrangementbutton{
   color: white;
   padding: 0% 0% 0% 0%;
   border: none;
   cursor: pointer;
   font-size: 20px;
-  margin-left: 166px;
+  margin-left: 183px;
   margin-right: 8%;
   border-radius: 15px;
   display: inline-block;
@@ -1492,14 +1505,21 @@ input[type=submit]:hover {
 }
 
 @media screen and (max-width: 800px) {
-.arrangementbutton{
-  margin-left: 146px;
-  min-width: 18vh;
-}
-.prijsfont{
-  margin: 0% 8% -1%;
-}
-.onderprijs{
-  margin: 0% 8% -17%;
-}
-  }/*Media Query for mobiel button*/
+  .arrangementbutton{
+    margin-left: 146px;
+    min-width: 18vh;
+  }
+  .prijsfont{
+    margin: 0% 8% -1%;
+  }
+  .onderprijs{
+    margin: 0% 8% -17%;
+  }
+}/*Media Query for mobiel button*/
+
+@media screen and (max-width: 1260px) {
+  .arrangementbutton{
+    margin-left: 161px;
+    min-width: 18vh;
+  }
+}/*Media Query for tablet button*/

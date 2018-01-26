@@ -18,7 +18,7 @@
     </p>
   </div>
   <div class="deboerderij deboerderij2">
-    <img  src="images/rsz_de_boerderij.jpg" alt="Boerderij" style="max-width: 95%;">
+    <img  src="images/rsz_de_boerderij.jpg" alt="Boerderij" style="max-width: 55%;">
   </div>
   <div class="deboerderij deboerderij3">
     <h2>De oogst</h2>
