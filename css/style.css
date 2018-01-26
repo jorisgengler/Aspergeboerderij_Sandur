@@ -1534,7 +1534,7 @@ input[type=submit]:hover {
 	grid-template-areas:
   "sectiontussen1 sectiontussen1"
   "excursie1 excursie2"
-  "sectiontussen2 sectiontussen3"
+  "sectiontussen2 sectiontussen2"
  ;
 }
 .excursie1{
@@ -1543,6 +1543,7 @@ input[type=submit]:hover {
 }
 .excursie2{
     grid-area: excursie2;
+    margin-left: 10%;
 }
 .excursie3{
     grid-area: excursie3;
@@ -1551,5 +1552,5 @@ input[type=submit]:hover {
 
 
 .reserveren{
-width: 60%;
+  width: 70%;
 }
