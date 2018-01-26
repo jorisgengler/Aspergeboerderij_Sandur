@@ -5,7 +5,7 @@ window.sr = ScrollReveal();
     distance:'600px'
   });
   sr.reveal('.section4', {
-    duration: 6000,
+    duration: 3500,
     origin:'right',
     distance:'100%'
   });
