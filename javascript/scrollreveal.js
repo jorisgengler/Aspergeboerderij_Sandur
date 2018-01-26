@@ -115,7 +115,7 @@
     // e.g. Set `{ top: 48 }`, if you have a 48px tall fixed toolbar.
     // --
     // Visual Aid: https://scrollrevealjs.org/assets/viewoffset.png
-    viewOffset: { top: 0, right:, bottom: 0, left: 0 },
+    viewOffset: { top: 0, right:0, bottom: 0, left: 0 },
 
     // Callbacks that fire for each triggered element reveal, and reset.
     beforeReveal: function (domEl) {},
