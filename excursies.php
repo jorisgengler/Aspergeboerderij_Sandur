@@ -13,23 +13,23 @@
    <div class="arrangement">
      <div class="buttonplacedown">
 
-  <img  src="images/rsz_excursies.jpg" alt="Boerderij" style="max-width: 100%;">
+  <a href="zelf_het_veld_in.php"><img  src="images/rsz_excursies.jpg" alt="Boerderij" style="max-width: 100%;"></a>
 
 <div class="textareaexcursies">
-<h4>Arrangement 1:</h4>
+<h4>Zelf het veld in?</h4>
 <br>
-<p4>
+<p>
 <li>Excursie over de teelt van asperges</li>
-<li>Smalspoormuseum</li>
-<li>Maak een rit door een prachtig natuur gebied.</li>
-<li>Koffie/théé</li>
-</p4>
+<li>Zelf een asperge steken</li>
+<li>Kinderen tot en met 12 jaar zijn gratis.</li>
+<li>woensdag- en zaterdagmiddag van 15:30 uur tot 16:30 uur.</li>
+</p>
 </div><!-- /textareaexcursies -->
 
    <div class="buttonplace">
-     <div class="prijsfont"><p>€21,95</p></div>
+     <div class="prijsfont"><p>2,50</p></div>
      <div class="onderprijs"><p5>vanaf prijs, p.p. </p5></div>
-     <a href="contact.php"><div class="arrangementbutton buttoncolorgreen"> <p>Meer +</p></div></a>
+     <a href="zelf_het_veld_in.php"><div class="arrangementbutton buttoncolorgreen"> <p>Meer +</p></div></a>
    </div>
  <br>
 </div><!-- /buttonplacedown -->
@@ -53,9 +53,9 @@
  </div><!-- /textareaexcursies -->
 
       <div class="buttonplace">
-        <div class="prijsfont"><p>€21,95</p></div>
+        <div class="prijsfont"><p>21,95</p></div>
         <div class="onderprijs"><p5>vanaf prijs, p.p. </p5></div>
-        <a href="contact.php"><div class="arrangementbutton buttoncolorgreen"> <p>Meer +</p></div></a>
+        <a href="zelf_het_veld_in.php"><div class="arrangementbutton buttoncolorgreen"> <p>Meer +</p></div></a>
       </div>
     <br>
   </div><!-- /buttonplacedown -->
@@ -80,9 +80,9 @@
     </div><!-- /textareaexcursies -->
 
     <div class="buttonplace">
-      <div class="prijsfont"><p>€21,95</p></div>
+      <div class="prijsfont"><p>21,95</p></div>
       <div class="onderprijs"><p5>vanaf prijs, p.p. </p5></div>
-      <a href="contact.php"><div class="arrangementbutton buttoncolorgreen"> <p>Meer +</p></div></a>
+      <a href="zelf_het_veld_in.php"><div class="arrangementbutton buttoncolorgreen"> <p>Meer +</p></div></a>
     </div>
     <br>
 
@@ -107,9 +107,9 @@
 </div><!-- /textareaexcursies -->
 
   <div class="buttonplace">
-    <div class="prijsfont"><p>€21,95</p></div>
+    <div class="prijsfont"><p>21,95</p></div>
     <div class="onderprijs"><p5>vanaf prijs, p.p. </p5></div>
-    <a href="contact.php"><div class="arrangementbutton buttoncolorgreen"> <p>Meer +</p></div></a>
+    <a href="zelf_het_veld_in.php"><div class="arrangementbutton buttoncolorgreen"> <p>Meer +</p></div></a>
   </div>
 <br>
 </div><!-- /buttonplacedown -->
