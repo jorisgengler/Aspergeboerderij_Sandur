@@ -66,7 +66,10 @@ p5{ /*text onder prijs excursies*/
     font-family: 'droid_sansregular';
     font-size: 14px;
 }
-
+p6{ /*excursies pagina*/
+    font-family: 'droid_sansregular';
+font-size: 18px;
+}
 a{
 text-decoration:none;
 color: black;
@@ -105,6 +108,9 @@ h4{
   padding-right: 3%;
 }
 
+li{
+  margin-left: 6%;
+}
 
 /* -----------------------------------Footer----------------------------------- */
 footer{
@@ -1469,7 +1475,7 @@ input[type=submit]:hover {
   position: relative;
   color: #333;
   margin-top: 35px;
-  min-height: 80vh;
+  min-height: 87vh;
   box-shadow: 0px 0px 62px 0px grey;
 }
 .textareaexcursies{
@@ -1499,7 +1505,7 @@ input[type=submit]:hover {
 .prijsfont{
   font-size: 155%;
   color: #333;
-  margin: 0% 7% -1%;
+  margin: 0% 8% -1%;
 }
 .onderprijs{
   margin: 0% 8% -15%;
@@ -1517,3 +1523,55 @@ input[type=submit]:hover {
     margin: 0% 8% -17%;
   }
 }/*Media Query for mobiel button*/
+
+
+
+/* ---------------------------------------excursiepagina--------------------------------------- */
+.excursiepaginagrid {
+	display: grid;
+	grid-template-columns: 70vw 30vw;
+	grid-template-rows: 1fr;
+	grid-template-areas:
+  "sectiontussen1 sectiontussen1"
+  "excursie1 excursie2"
+  "sectiontussen2 sectiontussen3"
+ ;
+}
+.excursie1{
+    grid-area: excursie1;
+    margin-left: 17%;
+}
+.excursie2{
+    grid-area: excursie2;
+}
+.excursie3{
+    grid-area: excursie3;
+    margin-left: 17%;
+}
+
+
+/*-------------------------Nieuwsbrief-----------------------------*/
+input[type=text], textarea {
+    width: 23%;
+    padding: 4px;
+    border: 5px solid rgba(33, 91, 155, 1);
+    border-radius: 10px;
+    box-sizing: border-box;
+		resize: vertical;
+		margin-top: 1%;
+}
+
+input[type=submit] {
+    background-color: rgba(33, 91, 155, 1);
+    color: white;
+    padding: 4px 3px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+		font-size: 18px;
+}
+
+input[type=submit]:hover {
+    background-color: rgba(33, 91, 155, 1);
+		color:#8be5dc;
+}
