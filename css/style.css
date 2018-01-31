@@ -1355,6 +1355,8 @@ input[type=submit]:hover {
 	grid-template-areas:
   "freshfoodacademyhome freshfoodacademyhome freshfoodacademyhome freshfoodacademyhome"
   "sectiontussen1 sectiontussen1 sectiontussen1 sectiontussen1"
+  "freshfoodacademy1 freshfoodacademy2 freshfoodacademy2 freshfoodacademy3"
+  "sectiontussen2 sectiontussen2 sectiontussen2 sectiontussen2"
  ;
 }
 .freshfoodacademyhome{
@@ -1368,6 +1370,18 @@ input[type=submit]:hover {
   -o-background-size: cover;
   background-size: cover;
   min-height: 77vh;
+}
+.freshfoodacademy1{
+  grid-area: freshfoodacademy1;
+}
+.freshfoodacademy2{
+  grid-area: freshfoodacademy2;
+}
+.freshfoodacademy3{
+  grid-area: freshfoodacademy3;
+}
+.freshfoodacademy4{
+  grid-area: freshfoodacademy4;
 }
 .textvlakwhitedoorzichtigfresh{
   	border: 1px #1F4E79; /*blue*/
@@ -1513,7 +1527,7 @@ input[type=submit]:hover {
 
 @media screen and (max-width: 800px) {
   .arrangementbutton{
-    margin-left: 176px;
+    margin-left: 155px;
     min-width: 18vh;
   }
   .prijsfont{
