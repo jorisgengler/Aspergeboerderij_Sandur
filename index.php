@@ -12,10 +12,9 @@
   <div class="homepage" id="homepage">
     <?php include 'header.php';?> <!-- Roept de header op  -->
 
-      <div class="textvlakwhitedoorzichtig1">
+      <div class="textvlakwhitedoorzichtigfresh">  <!--textvlakwhitedoorzichtig1 -->
         <h3>
-          Asperges <br>
-          Lekker en gezond!
+          Asperges, lekker en gezond!
 
         </h3>
       </div>
@@ -85,7 +84,7 @@
         </div>
           <br><br>
           <div class="buttonplace">
-          <a href="contact.php"><div class="button buttoncolorgreen"> <p>Overzicht van activiteiten & excursies</p></div></a>
+          <a href="excursies.php"><div class="button buttoncolorgreen"> <p>Overzicht van activiteiten & excursies</p></div></a>
           </div>
         </div>
       <br>
