@@ -48,8 +48,8 @@
   <br>
   <p>
     Maandag t/m donderdag van 13.00 tot 18.00 uur<br>
-    Vrijdags van 9.00 tot 18.00 uur<br>
-    Zaterdags van 9.00 tot 17.00 uur
+    Vrijdag van 9.00 tot 18.00 uur<br>
+    Zaterdag van 9.00 tot 17.00 uur
   </p>
   <br>
 <p>
