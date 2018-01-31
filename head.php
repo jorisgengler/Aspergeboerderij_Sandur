@@ -12,7 +12,7 @@
   gtag('config', 'UA-112070976-1');
 </script>
 
-<title>Aspergeboerdrij Sandur</title>
+<title>Aspergeboerderij Sandur</title>
 <link rel="icon" href="images/tablogo.png">
 <!-- CSS -->
 <link rel="stylesheet" type="text/css" media="all" href="css/style.css">
