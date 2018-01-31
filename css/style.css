@@ -50,7 +50,7 @@ p1{
 }
 p2{
   font-family: 'droid_sansregular';
-  font-size: 138%;
+  font-size: 120%;
   color: #1e1d1d;
 }
 p3{
@@ -282,7 +282,7 @@ input[type=submit]:hover {
 	border: 2px #1F4E79; /*blue*/
   padding-top: 1%;
 	padding-left: 4%;
-	margin-left: 4%;
+	margin-left: 3%;
 	margin-right: 8%;
 	position: relative;
   border-style: solid;
@@ -337,7 +337,7 @@ input[type=submit]:hover {
   -ms-grid-column: 3;
   -ms-grid-column-span: 4;
   padding-right: 20%;
-  padding-top: 3%;
+  padding-top: 16%;
 }
 
 /*--------------------- Section7 ---------------------*/
