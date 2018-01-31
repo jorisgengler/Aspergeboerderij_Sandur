@@ -48,13 +48,13 @@
 <li>Excursie over de teelt van asperges</li>
 <li>Vanaf 10 personen</li>
 <li>Dag/tijdstip in overleg</li>
-<li>Rondleiding aangepast aan de behoeften van de groep</li>
+<li>Rondleiding aangepast aan de behoefte van de groep</li>
 <li>Koffie/thee of een andere consumptie</li>
 </p4>
  </div><!-- /textareaexcursies -->
 
       <div class="buttonplace">
-        <div class="prijsfont"><p>5,00</p></div>
+        <div class="prijsfont"><p>7,50</p></div>
         <div class="onderprijs"><p5>vanaf prijs, p.p. </p5></div>
         <a href="excursie _met_uw_eigen_groep.php"><div class="arrangementbutton buttoncolorgreen"> <p>Meer +</p></div></a>
       </div>
@@ -66,16 +66,15 @@
 <div class="arrangement">
         <div class="buttonplacedown">
 
-     <img  src="images/rsz_excursies.jpg" alt="Boerderij" style="max-width: 100%;">
+    <a href="excursie_aspergeboerderij_sandur_en_smalspoormuseum.php"> <img  src="images/rsz_excursies.jpg" alt="Boerderij" style="max-width: 100%;"></a>
 
 <div class="textareaexcursies">
   <h4>Excursie Aspergeboerderij Sandur + Smalspoormuseum</h4>
-    <br>
 <p4>
 <li>Excursie over de teelt van asperges</li>
+<li>Ambachtelijke verse aspergesoep</li>
 <li>Smalspoormuseum</li>
-<li>Maak een rit door een prachtig natuur gebied.</li>
-<li>Koffie/thee</li>
+<li>Lunch in het Smalspoor Museum</li>
 </p4>
 
     </div><!-- /textareaexcursies -->
@@ -83,38 +82,14 @@
     <div class="buttonplace">
       <div class="prijsfont"><p>21,95</p></div>
       <div class="onderprijs"><p5>vanaf prijs, p.p. </p5></div>
-      <a href="zelf_het_veld_in.php"><div class="arrangementbutton buttoncolorgreen"> <p>Meer +</p></div></a>
+      <a href="excursie_aspergeboerderij_sandur_en_smalspoormuseum.php"><div class="arrangementbutton buttoncolorgreen"> <p>Meer +</p></div></a>
     </div>
     <br>
 
   </div><!-- /buttonplacedown -->
 </div>
 
-<!-- __________________________arrangement4__________________________ -->
-  <div class="arrangement">
-    <div class="buttonplacedown">
 
- <img  src="images/rsz_excursies.jpg" alt="Boerderij" style="max-width: 100%;">
-
-<div class="textareaexcursies">
-<h4>Arrangement 1:</h4>
-<br>
-<p4>
-<li>Excursie over de teelt van asperges</li>
-<li>Smalspoormuseum</li>
-<li>Maak een rit door een prachtig natuur gebied.</li>
-<li>Koffie/théé</li>
-</p4>
-</div><!-- /textareaexcursies -->
-
-  <div class="buttonplace">
-    <div class="prijsfont"><p>21,95</p></div>
-    <div class="onderprijs"><p5>vanaf prijs, p.p. </p5></div>
-    <a href="zelf_het_veld_in.php"><div class="arrangementbutton buttoncolorgreen"> <p>Meer +</p></div></a>
-  </div>
-<br>
-</div><!-- /buttonplacedown -->
-</div>
 
 
 

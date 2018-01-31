@@ -13,7 +13,7 @@
     <li>Excursie over de teelt van asperges</li>
     <li>Vanaf 10 personen</li>
     <li>Dag/tijdstip in overleg</li>
-    <li>Rondleiding aangepast aan de behoeften van de groep</li>
+    <li>Rondleiding aangepast aan de behoefte van de groep</li>
     <li>Koffie/thee of een andere consumptie</li>
   </p6>
 <br>
@@ -22,6 +22,8 @@
 
     Er kan een film getoond worden over de groei van een asperge, een rondleiding door het bedrijf, asperges steken,
     er kan informatie gegeven worden over het koken van asperges etc.
+<br><br>
+    Ook kan er een bezoek gebracht worden aan onze streekproducten winkel.
 <br><br>
     Er zijn verschillende mogelijkheden betreft de consumpties. Zo kunt u iets drinken, een ijsje of een smoothie kiezen of een kopje aspergesoep eten.
     Ook kan een kok informatie geven over lekkere aspergehapjes en die ook voor u maken.

@@ -18,7 +18,7 @@
 <br>
 <br>
   <p6>
-    Deze rondleiding kan aangepast worden aan de behoeften van de groep.<br><br>
+    Deze rondleiding kan aangepast worden aan de behoefte van de groep.<br><br>
     Zo kan er een film getoond worden over de groei van een asperge, een rondleiding door het bedrijf, er kunnen asperges gestoken worden,
     er kan informatie gegeven worden over het koken van asperges etc.
 
