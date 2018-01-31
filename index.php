@@ -40,14 +40,14 @@
           <h2>Openingstijden:</h2>
             <p>Maandag t/m donderdag van 13.00 tot 18.00 uur;
               <br>
-              Vrijdags van 9.00 tot 18.00 uur;
+              Vrijdag van 9.00 tot 18.00 uur;
               <br>
-              Zaterdags van 9.00 tot 17.00 uur.
+              Zaterdag van 9.00 tot 17.00 uur.
           </p>
         </div>
           <br>
           <div class="buttonplace">
-            <a href="contact.php"><div class="button buttoncolorgreen"> <p>Boerderijwinkel & producten</p></div></a>
+            <a href="de_boerderij.php"><div class="button buttoncolorgreen"> <p>Boerderijwinkel & producten</p></div></a>
           </div>
           <br>
       </div>
@@ -55,14 +55,15 @@
 <!-- __________________________Section2__________________________ -->
 <div class="section2">
       <div class="buttonplacedown">
-        <h2>SBS6 op de aspergeboerderij! </h2>
+        <h2>SBS 6 op de aspergeboerderij </h2>
         <!-- <video class="sbs6video" src="videos/sbs6.mp4" width="400" controls></video> -->
         <a href="SBS6_aspergeboerderijsandur.php"><img src="videos/sbs6.png" alt="Boerderij" style="max-width: 95%;"> </a>
+          <br><br>
 
+          <p>SBS 6 heeft opnames op ons bedrijf gemaakt.<br><br> Neem een kijkje achter de schermen.</p>
 
-          <br>
           <div class="buttonplace">
-            <a href="contact.php"><div class="button buttoncolorgreen"> <p>Overzicht van activiteiten & excursies</p></div></a>
+            <a href="contact.php"><div class="button buttoncolorgreen"> <p>SBS 6 op de aspergeboerderij</p></div></a>
           </div>
       </div>
     <br>
@@ -77,7 +78,7 @@
 
         <div class="textvlak">
           <p>
-            Bedrijfsdag, teamuitje, bijzondere familiedag, vriendenworkshop of een andere groepsactiviteit? We maken er een onvergetelijk moment van voor iedere doelgroep!
+            Personeelsdag, teamuitje, bijzondere familiedag, vriendenworkshop of een andere groepsactiviteit? We maken er een onvergetelijk moment van voor iedere doelgroep!
             <br><br>
             Mooie verhalen, een blos op de wangen en lekkers om te proeven!
           </p>
@@ -96,18 +97,21 @@
         <div class="buttonplacedown4">
           <h3>Nieuws</h3>
         <div class="textvlak">
-          <p>Nieuw in de winkel de Asperge croquetten </p>
+          <p>Nieuw in de winkel: de Asperge kroket. </p>
           <br>
           <h2>Stagiaires gezocht! </h2>
 
           <p>
           MBO niveau 2-4 voor de volgende opleidingen:<br><br>
+          <li>Verkoopspecialist</li>
+          <li>Verkoopspecialist groene detailhandel</li>
           <li>Manager retail</li>
+          <br><br>
           <li>Medewerker teelt</li>
           <li>Vakbekwaam medewerkerteelt</li>
           <li>Vakexpert teelt en groene technologie</li>
-          <li>Verkoopspecialist</li>
-          <li>Verkoopspecialist groene detailhandel</li>
+
+
           <p>
         </div>
        </div>
@@ -139,7 +143,7 @@
   </p2>
     <br><br><br>
     <div class="center">
-      <a href="contact.php"><div class="button buttoncolorgreen"> <p>Overzicht van activiteiten & excursies</p></div></a>
+      <a href="excursies.php"><div class="button buttoncolorgreen"> <p>Overzicht van activiteiten & excursies</p></div></a>
     </div>
 </div><!-- /section6 -->
 

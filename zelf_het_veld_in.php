@@ -10,14 +10,21 @@
   <h3>Zelf het veld in?</h3>
   <p6>
     <br>
-    <li>woensdag- en zaterdagmiddag van 15:30 uur tot 16:30 uur.</li>
+    <li>Woensdag- en zaterdagmiddag van 15:30 uur tot 16:30 uur</li>
     <li>Excursie over de teelt van asperges</li>
     <li>Zelf een asperge steken</li>
-    <li>Kinderen tot en met 12 jaar zijn gratis.</li>
+    <li>Kinderen tot en met 12 jaar zijn gratis</li>
   </p6>
 <br>
 <br>
   <p6>
+    Deze rondleiding kan aangepast worden aan de behoeften van de groep.<br><br>
+    Zo kan er een film getoond worden over de groei van een asperge, een rondleiding door het bedrijf, er kunnen asperges gestoken worden,
+    er kan informatie gegeven worden over het koken van asperges etc.
+
+  </p6>
+
+  <!-- <p6>
     We organiseren ook rondleidingen/activiteiten op afspraak.<br>
     Deze rondleidingen kunnen aangepast worden aan de behoeften van de groep.<br>
     Zo kan er een film getoond worden over de groei van een asperge, er kunnen asperges gestoken worden,<br>
@@ -30,7 +37,7 @@
     info@aspergeboerderijsandur.nl
     <br><br>
     tel: 0591-554375
-  </p6>
+  </p6> -->
 </div>
 <div class="excursie2">
 
