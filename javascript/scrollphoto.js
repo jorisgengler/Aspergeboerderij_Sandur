@@ -1,7 +1,7 @@
 window.sr = ScrollReveal();
   sr.reveal('.textvlakwhitedoorzichtig1', {
     duration: 2000,
-    origin:'left',
+    origin:'right',
     distance:'600px'
   });
   sr.reveal('.section4', {
