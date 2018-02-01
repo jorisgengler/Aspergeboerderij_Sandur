@@ -12,6 +12,8 @@
   <div class="homepage" id="homepage">
     <?php include 'header.php';?> <!-- Roept de header op  -->
 
+    <div class="textvlakwhitedoorzichtig1"><p>Het aspergeseizoen begint in<br> april 2018. </p></div>
+
       <div class="textvlakwhitedoorzichtigfresh">  <!--textvlakwhitedoorzichtig1 -->
         <h3>
           Asperges, lekker en gezond!
