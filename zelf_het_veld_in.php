@@ -44,7 +44,7 @@
     <h1>Reserveren</h1>
         <div class="contactveld">
 
-          <form  action="action_page.php" method="post">
+          <form  action="action_page_zelf_het_veld_in.php" method="post">
 <br>
             <label for="firstname"> </label>
             <input type="text" class="reserveren" style="width: 70%;" id="firstname" name="firstname" placeholder="Uw naam">
@@ -54,7 +54,8 @@
             <input type="text" class="reserveren" style="width: 70%;" id="email" name="email" placeholder="Uw E-mail">
 <br>
 <br>
-            <select name="maand" class="reserveren">
+
+            <select name="personen" id="personen" class="reserveren">
               <option value="aantal personen">aantal personen</option>
               <option value="1 personen">1 persoon</option>
               <option value="2 personen">2 personen</option>
@@ -70,6 +71,9 @@
               <option value="12 personen">12 personen</option>
               <option value="Meer personen">Meer personen graag vermelden in bijzonderheden</option>
             </select>
+
+
+
 <br>
 <br>
 
