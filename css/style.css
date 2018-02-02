@@ -1573,3 +1573,49 @@ input[type=submit]:hover {
 .reserveren{
   width: 70%;
 }
+
+
+.gridrecepten {
+	display: grid;
+	grid-template-columns: 50vw 25vw 25vw;
+	grid-template-rows: 1fr;
+	grid-template-areas:
+  "sectiontussen1 sectiontussen1 sectiontussen1"
+  "recept1 recept2 meerrecepten"
+  "recept3 recept3 meerrecepten"
+  "sectiontussen3 sectiontussen3 sectiontussen3"
+ ;
+}
+.meerrecepten{
+  grid-area: meerrecepten;
+}
+
+.recept1{
+  grid-area: recept1;
+  text-align: center;
+}
+.recept2{
+  grid-area: recept2;
+
+  /* color: black;
+  background: #efedf2;
+  width: 40%;
+  min-width: 278px;
+  margin-top: 4%;
+  color: #333;
+  box-shadow: 0px 0px 62px 0px grey;
+  padding: 2%;
+  border: 2px #1F4E79;
+  border-style: solid; */
+
+width: 257px;
+padding: 13px 20px 8px;
+background-color: #fff;
+background-color: rgba(255,255,255,.8);
+text-align: left;
+}
+.recept3{
+  grid-area: recept3;
+  margin-left: 17%;
+  margin-right: 9%;
+}
