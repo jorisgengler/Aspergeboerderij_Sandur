@@ -38,6 +38,33 @@ body { /* Overflow in body */
     width: 100vw;
 
 }
+/* -----------------------------arrow----------------------------- */
+i {
+  border: solid #1F4E79;/*blue*/
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+}
+
+.rightarrow {
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+}
+
+.leftarrow {
+    transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+}
+
+.uparrow {
+    transform: rotate(-135deg);
+    -webkit-transform: rotate(-135deg);
+}
+
+.downarrow {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+}
 
 p{
 	font-family: 'droid_sansregular';
@@ -70,6 +97,12 @@ p6{ /*excursies pagina*/
     font-family: 'droid_sansregular';
 font-size: 18px;
 }
+p7{ /* underline */
+  font-family: 'droid_sansregular';
+  text-decoration: underline;
+}
+
+
 a{
 text-decoration:none;
 color: black;
@@ -101,6 +134,19 @@ h4{
 	font-family: 'amienneregular';
 	margin:0;
 	padding:0 0 10px 0;
+  letter-spacing: 1px;
+  color: #1F4E79; /*blue*/
+}
+h5{
+  font-size:52px;
+  font-family: 'amienneregular';
+  color: black;
+  letter-spacing: 1px;
+}
+h6{
+  font-size:40px;
+  font-family: 'amienneregular';
+  color: black;
   letter-spacing: 1px;
   color: #1F4E79; /*blue*/
 }
@@ -1575,6 +1621,7 @@ input[type=submit]:hover {
 }
 
 
+/* ---------------------------- Grid Recepten ---------------------------- */
 .gridrecepten {
 	display: grid;
 	grid-template-columns: 50vw 25vw 25vw;
@@ -1593,6 +1640,7 @@ input[type=submit]:hover {
 .recept1{
   grid-area: recept1;
   text-align: center;
+  margin-top: -2%;
 }
 .recept2{
   grid-area: recept2;
@@ -1608,14 +1656,46 @@ input[type=submit]:hover {
   border: 2px #1F4E79;
   border-style: solid; */
 
-width: 257px;
-padding: 13px 20px 8px;
-background-color: #fff;
-background-color: rgba(255,255,255,.8);
-text-align: left;
+  /* width: 257px; */
+  padding: 13px 20px 8px;
+  background-color: #fff;
+  background-color: rgba(255,255,255,.8);
+  margin-right: 15%;
 }
 .recept3{
   grid-area: recept3;
   margin-left: 17%;
   margin-right: 4%;
+}
+
+
+/*------------------------------- Mobiel versie -------------------------------*/
+@media screen and (max-width: 800px) {
+/* ---------------------------- Grid Recepten ---------------------------- */
+.gridrecepten {
+	display: grid;
+	grid-template-columns: 100vw;
+	grid-template-rows: 1fr;
+	grid-template-areas:
+  "sectiontussen1"
+  "recept1"
+  "sectiontussen2"
+  "recept2"
+  "recept3"
+  "meerrecepten"
+  "sectiontussen3"
+ ;
+}
+
+.recept2{
+  grid-area: recept2;
+  margin-left: 4%;
+  margin-right: 4%;
+}
+.recept3{
+  grid-area: recept3;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
 }
