@@ -46,7 +46,9 @@
       Roer de ricotta met de citroenrasp, 1 eetlepel citroensap en de zalm door de pasta met asperges en verwarm het geheel voorzichtig roerend 2-3 minuten op middelhoog vuur tot de zalm net gaar is.
       Breng op smaak met zout en (versgemalen) peper en roer de helft van het basilicum erdoor.
       Schep de penne met asperges en zalm op vier borden en strooi de rest van het basilicum erover.
+      <br><br>
       Smakelijk eten!
+      <br><br>
       Bron: Albert Heijn
 
   </p4>

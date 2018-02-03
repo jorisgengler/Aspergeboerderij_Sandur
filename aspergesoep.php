@@ -48,6 +48,7 @@
       Eventueel kunt u een paar stukjes apart houden, om later bij de soep te voegen.
       Verwarm de room een paar minuten mee en voeg peper en zout naar smaak toe.
       Verdeel de soep over borden of kommen en dien op.
+      <br><br>
       Smakelijk eten!
       <br><br>
       Bron: Oervoer

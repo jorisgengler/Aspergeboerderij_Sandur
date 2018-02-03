@@ -46,6 +46,7 @@
       Meng de crème fraîche, kruidenkaas, geraspte kaas en melk en breng op smaak met nootmuskaat, peper en zout. Roer de peterselie erdoor en schenk dit mengsel over de asperges.
       Zet de ovenschaal of ovenschaaltjes 15-20 minuten in de oven op 200⁰C tot de bovenkant goudbruin is.
       Strooi er eventueel nog wat verse peterselie over. Lekker met gekookte aardappelen en een stukje gegrilde zalm.
+      <br><br>
       Eet smakelijk!
       <br><br>
       Bron: Asperges, Francis van Arkel
