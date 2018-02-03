@@ -66,25 +66,23 @@ i {
     -webkit-transform: rotate(45deg);
 }
 
-p{
+p{ /*Normaal text black*/
 	font-family: 'droid_sansregular';
 }
-
-
-p1{
+p1{ /*Normaal text black*/
 	font-family: 'droid_sansregular';
 	color:black;
 }
-p2{
+p2{ /*groot text*/
   font-family: 'droid_sansregular';
   font-size: 120%;
-  color: #1e1d1d;
+  color: #1e1d1d; /*gray*/
 }
-p3{
+p3{ /*Normaal gray*/
   font-family: 'droid_sansregular';
   color: #1e1d1d;
 }
-p4{
+p4{ /*text on xcursies.php*/
   font-family: 'droid_sansregular';
   font-size: 108%;
   color: #1e1d1d;
@@ -108,7 +106,7 @@ text-decoration:none;
 color: black;
 }
 
-h1	{
+h1	{ /* Head recepten.php */
 	font-size:36px;
 	font-family: 'amienneregular';
 	margin:0;
@@ -116,20 +114,20 @@ h1	{
   letter-spacing: 1px;
 }
 
-h2	{
+h2	{ /*kopjes*/
 	font-size:32px;
 	font-family: 'amienneregular';
 	margin:0;
 	padding:0 0 10px 0;
   letter-spacing: 1px;
 }
-h3{
+h3{ /*Title*/
 	font-size:52px;
 	font-family: 'amienneregular';
   color: #1F4E79; /*blue*/
   letter-spacing: 1px;
 }
-h4{
+h4{ /*Title excursies.php*/
 	font-size:32px;
 	font-family: 'amienneregular';
 	margin:0;
@@ -137,16 +135,15 @@ h4{
   letter-spacing: 1px;
   color: #1F4E79; /*blue*/
 }
-h5{
+h5{ /* recepten head */
   font-size:52px;
   font-family: 'amienneregular';
   color: black;
   letter-spacing: 1px;
 }
-h6{
+h6{ /* recepten probeer ook eens */
   font-size:40px;
   font-family: 'amienneregular';
-  color: black;
   letter-spacing: 1px;
   color: #1F4E79; /*blue*/
 }
@@ -1713,3 +1710,9 @@ input[type=submit]:hover {
 }
 
 }/*Media Query Mobiel*/
+
+
+.page404{
+  text-align: center;
+  margin-top: 4%;
+}
