@@ -9,14 +9,8 @@
 <div class="gridrecepten">
 
   <div class="meerrecepten">
-    <h6>Probeer ook eens:</h6>
-<br>
-  <i class="rightarrow"></i>  <a href="pittigepeperaspergesoep.php"><p7>Pittige pepersoep met asperges</p7></a> <br>
-  <i class="rightarrow"></i>  <a href="roerbakaspergesencourgette.php"><p7>Roerbak asperges en courgette</p7></a> <br>
-  <i class="rightarrow"></i>  <a href="pennemetaspergesenzalm.php"><p7>Penne met asperges en zalm</p7></a> <br>
-  <i class="rightarrow"></i>  <a href="aspergegratin.php"><p7>Aspergegratin</p7></a> <br>
-  <i class="rightarrow"></i>  <a href="aspergesoep.php"><p7>Aspergesoep</p7></a> <br>
-  <i class="rightarrow"></i>  <a href="aspergetaart.php"><p7>Aspergetaart</p7></a> <br>
+
+<?php include 'meerrecepten.php'; ?>
 
   </div>
 
@@ -36,7 +30,6 @@
 
     <li> 1 kg witte asperges</li>
     <li> zout</li>
-    <li> 2 el paneermeel</li>
     <li> 6 plakjes roomboter- bladerdeeg</li>
     <li> 2 eieren</li>
     <li> 100 ml crème fraîche</li>
@@ -78,6 +71,8 @@
   <div class="sectiontussen1"></div><!-- lege tussen ruimte van 7vh -->
   <div class="sectiontussen2"></div><!-- lege tussen ruimte van 7vh -->
   <div class="sectiontussen3"></div><!-- lege tussen ruimte van 7vh -->
+  <div class="sectiontussen4"></div><!-- lege tussen ruimte van 7vh -->
+  <div class="sectiontussen5"></div><!-- lege tussen ruimte van 7vh -->
 </div><!--/Grid recepten-->
 </div><!--/container-->
 

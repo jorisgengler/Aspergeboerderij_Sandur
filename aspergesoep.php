@@ -8,7 +8,9 @@
 
 <div class="gridrecepten">
 
-  <div class="meerrecepten"></div>
+  <div class="meerrecepten">
+    <?php include 'meerrecepten.php'; ?>
+  </div>
 
   <div class="recept1">
     <h5>Aspergesoep</h5>
@@ -61,6 +63,8 @@
   <div class="sectiontussen1"></div><!-- lege tussen ruimte van 7vh -->
   <div class="sectiontussen2"></div><!-- lege tussen ruimte van 7vh -->
   <div class="sectiontussen3"></div><!-- lege tussen ruimte van 7vh -->
+  <div class="sectiontussen4"></div><!-- lege tussen ruimte van 7vh -->
+  <div class="sectiontussen5"></div><!-- lege tussen ruimte van 7vh -->
 </div><!--/Grid recepten-->
 </div><!--/container-->
 
