@@ -5,9 +5,7 @@
 <div class="container">
 
 <?php include 'header.php';?> <!-- Roept de header op  -->
-<a HREF="https://www.asperge.jorisgengler.nl/receptentest.php">
-<p>Recepten pagina met mysql database</p>
-</a>
+
 
 <div class="gridreceptenpage">
 <!-- ______________________receptenpage1______________________ -->
@@ -58,9 +56,7 @@
 <div class="receptentussen1"></div>
 <div class="receptentussen2"></div>
 <div class="receptentussen3"></div>
-<div class="receptentussen4"></div>
-<div class="receptentussen5"></div>
-<div class="receptentussen6"></div>
+
 
 </div> <!--receptengrid-->
 </div><!--/container-->
