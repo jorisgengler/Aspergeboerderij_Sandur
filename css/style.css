@@ -1010,8 +1010,9 @@ input[type=submit]:hover {
 /*--------------------- receptenpage1 ---------------------*/
 .receptenpage1{
   grid-area: receptenpage1;
-  -ms-grid-row: 2;
+  -ms-grid-row: 1;
   -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
 
   padding-left: 7%;
   padding-right: 7%;
@@ -1027,8 +1028,9 @@ input[type=submit]:hover {
 /*--------------------- receptenpage2 ---------------------*/
 .receptenpage2{
   grid-area: receptenpage2;
-  -ms-grid-row: 2;
+  -ms-grid-row: 1;
   -ms-grid-column: 2;
+  -ms-grid-column-span: 1;
 
   padding-left: 7%;
   padding-right: 7%;
@@ -1043,8 +1045,9 @@ input[type=submit]:hover {
 /*--------------------- receptenpage3 ---------------------*/
 .receptenpage3{
   grid-area: receptenpage3;
-  -ms-grid-row: 4;
-  -ms-grid-column: 1;
+  -ms-grid-row: 1;
+  -ms-grid-column: 3;
+  -ms-grid-column-span: 1;
 
   padding-left: 7%;
   padding-right: 7%;
@@ -1059,8 +1062,9 @@ input[type=submit]:hover {
 /*--------------------- receptenpage4 ---------------------*/
 .receptenpage4{
   grid-area: receptenpage4;
-  -ms-grid-row: 4;
+  -ms-grid-row: 2;
   -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
 
   padding-left: 7%;
   padding-right: 7%;
@@ -1075,8 +1079,9 @@ input[type=submit]:hover {
 /*--------------------- receptenpage4 ---------------------*/
 .receptenpage5{
   grid-area: receptenpage5;
-  -ms-grid-row: 4;
+  -ms-grid-row: 2;
   -ms-grid-column: 2;
+  -ms-grid-column-span: 1;
 
   padding-left: 7%;
   padding-right: 7%;
@@ -1093,6 +1098,7 @@ input[type=submit]:hover {
   grid-area: receptenpage6;
   -ms-grid-row: 2;
   -ms-grid-column: 3;
+  -ms-grid-column-span: 1;
 
   padding-left: 7%;
   padding-right: 7%;
@@ -1624,8 +1630,11 @@ input[type=submit]:hover {
 /* ---------------------------- Grid Recepten ---------------------------- */
 .gridrecepten {
 	display: grid;
+  display: -ms-grid;
 	grid-template-columns: 50vw 25vw 25vw;
+  -ms-grid-columns: 50vw 25vw 25vw;
 	grid-template-rows: 1fr;
+  -ms-grid-rows: 1fr;
 	grid-template-areas:
   "sectiontussen1 sectiontussen1 sectiontussen1"
   "recept1 recept2 meerrecepten"
@@ -1633,19 +1642,30 @@ input[type=submit]:hover {
   "sectiontussen3 sectiontussen3 sectiontussen3"
  ;
 }
+
+
 .meerrecepten{
   grid-area: meerrecepten;
+  -ms-grid-row: 1;
+  -ms-grid-column: 3;
+  -ms-grid-column-span: 1;
   margin-left: 5%;
   margin-right: 5%;
 }
 
 .recept1{
   grid-area: recept1;
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
   text-align: center;
   margin-top: -2%;
 }
 .recept2{
   grid-area: recept2;
+  -ms-grid-row: 1;
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 1;
   padding: 13px 20px 8px;
   background-color: #fff;
   background-color: rgba(255,255,255,.8);
@@ -1653,10 +1673,12 @@ input[type=submit]:hover {
 }
 .recept3{
   grid-area: recept3;
+  -ms-grid-row: 2;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 2;
   margin-left: 17%;
   margin-right: 4%;
 }
-
 
 /*------------------------------- Mobiel versie -------------------------------*/
 @media screen and (max-width: 800px) {
