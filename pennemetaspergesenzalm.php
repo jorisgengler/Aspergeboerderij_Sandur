@@ -11,7 +11,7 @@
   <div class="meerrecepten"></div>
 
   <div class="recept1">
-    <h1>Penne met asperges en zalm</h1>
+    <h5>Penne met asperges en zalm</h5>
         <br>
     <img src="images/foto6_thumbnail.jpg" style="width: 50%;">
   </div>

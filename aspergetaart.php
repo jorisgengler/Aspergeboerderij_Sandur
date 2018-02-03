@@ -8,10 +8,20 @@
 
 <div class="gridrecepten">
 
-  <div class="meerrecepten"></div>
+  <div class="meerrecepten">
+    <h6>Probeer ook eens:</h6>
+<br>
+  <i class="rightarrow"></i>  <a href="pittigepeperaspergesoep.php"><p7>Pittige pepersoep met asperges</p7></a> <br>
+  <i class="rightarrow"></i>  <a href="roerbakaspergesencourgette.php"><p7>Roerbak asperges en courgette</p7></a> <br>
+  <i class="rightarrow"></i>  <a href="pennemetaspergesenzalm.php"><p7>Penne met asperges en zalm</p7></a> <br>
+  <i class="rightarrow"></i>  <a href="aspergegratin.php"><p7>Aspergegratin</p7></a> <br>
+  <i class="rightarrow"></i>  <a href="aspergesoep.php"><p7>Aspergesoep</p7></a> <br>
+  <i class="rightarrow"></i>  <a href="aspergetaart.php"><p7>Aspergetaart</p7></a> <br>
+
+  </div>
 
   <div class="recept1">
-    <h1>Aspergetaart</h1>
+    <h5>Aspergetaart</h5>
         <br>
     <img src="images/foto2_thumbnail.jpg" style="width: 50%;">
   </div>

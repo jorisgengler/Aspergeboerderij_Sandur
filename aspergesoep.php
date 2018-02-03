@@ -11,7 +11,7 @@
   <div class="meerrecepten"></div>
 
   <div class="recept1">
-    <h1>Aspergesoep</h1>
+    <h5>Aspergesoep</h5>
         <br>
     <img src="images/foto12_thumbnail.jpg" style="width: 50%;">
   </div>

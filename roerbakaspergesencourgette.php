@@ -11,7 +11,7 @@
   <div class="meerrecepten"></div>
 
   <div class="recept1">
-    <h1>Roerbak asperges en courgette</h1>
+    <h5>Roerbak asperges en courgette</h5>
         <br>
     <img src="images/foto5_thumbnail.jpg" style="width: 50%;">
   </div>

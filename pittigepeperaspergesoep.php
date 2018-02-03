@@ -11,7 +11,7 @@
   <div class="meerrecepten"></div>
 
   <div class="recept1">
-    <h1>Pittige pepersoep met asperges</h1>
+    <h5>Pittige pepersoep met asperges</h5>
         <br>
     <img src="images/foto7_thumbnail.jpg" style="width: 50%;">
   </div>
@@ -44,7 +44,7 @@
     Breng dit aan de kook en haal na 6 minuten de asperges eruit. Laat de rest nog 30 minuten zachtjes trekken.
     Hierna zeven en het kookvocht bewaren. Hak het resterende pepertje fijn.
     Smelt de boter en bak de ui met de knoflook en pepertje 2-3 minuten. Roer de bloem erdoor en bak deze 1 minuut mee om te garen.
-    Schenk de gezeefde tomaten erbij en roer tot een licht gebonden en egale soep. 
+    Schenk de gezeefde tomaten erbij en roer tot een licht gebonden en egale soep.
     Schenk er 500 ml aspergekookvocht en de slagroom of crème fraîche bij en roer tot een glad mengsel.
     Voeg eventueel nog zoveel aspergevocht toe tot de soep de gewenste dikte heeft bereikt.
     Breng de soep op smaak met peper en zout.

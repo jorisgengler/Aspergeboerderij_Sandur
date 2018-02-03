@@ -11,7 +11,7 @@
   <div class="meerrecepten"></div>
 
   <div class="recept1">
-    <h1>Aspergegratin</h1>
+    <h5>Aspergegratin</h5>
         <br>
     <img src="images/foto8_thumbnail.jpg" style="width: 50%;">
   </div>
