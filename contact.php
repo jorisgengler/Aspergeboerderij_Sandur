@@ -83,7 +83,7 @@
     <div id="googleMap" style="width:100%;height:400px;"></div>
     <br>
     <p>
-      <a target="_blank" href="https://www.google.nl/maps/place/Aspergeboerderij+Sandur/@52.7166898,6.8815538,15z/data=!4m5!3m4!1s0x47b7e579c0243853:0xc3ecc23e1520860d!8m2!3d52.7136985!4d6.8877246">Route >> </a>
+      <a target="_blank" href="https://www.google.nl/maps/place/Aspergeboerderij+Sandur/@52.7166898,6.8815538,15z/data=!4m5!3m4!1s0x47b7e579c0243853:0xc3ecc23e1520860d!8m2!3d52.7136985!4d6.8877246"><h4>Route >></h4> </a>
     </p>
 <br>
 </div>
