@@ -6,44 +6,69 @@
 
 <?php include 'header.php';?> <!-- Roept de header op  -->
 
-    <div class="content">
-    	<div class="tekst">
-        	<h1>Aspergetaart</h1>
-<p><i>Ingrediënten:</i></p>
-<p>·         1 kg witte asperges</p>
-<p>·         zout</p>
-<p>·         2 el paneermeel</p>
-<p>·         6 plakjes roomboter bladerdeeg</p>
-<p>·         2 eieren</p>
-<p>·         100 ml crème fraîche</p>
-<p>·         100 g geraspte jong belegen kaas</p>
-<p>·         versgemalen peper</p>
-<p>·         100 g ham</p>
-<p>·         bakpapier</p><br />
+<div class="gridrecepten">
 
-<p><i>Bereiden:</i></p>
-<p>1) Verwarm de oven voor op 225⁰C (hete lucht 200⁰C). Kook de geschilde asperges ca. 8 min. in een pan met ruim kokend water met eventueel zout en suiker. Giet af (bewaar het kookvocht als basisbouillon voor bijv. soep) en laat het afkoelen.</p>
-<p>2) Bekleed een bakplaat met bakpapier. Maak hierop van het bladerdeeg een bodem, door de deegplakjes tegen elkaar aan te leggen en de naden goed dicht te drukken. Vouw de deegranden dubbel tot een opstaand randje.</p>
-<p>3) Klop de eieren met crème fraîche en geraspte kaas door elkaar en breng op smaak met peper en zout. Leg de asperges om en om naast elkaar op het deeg of maak er eerst kleine stukjes van en leg ze er dan op. Verdeel de ham er in repen tussen en verdeel het eimengsel erover.</p>
-<p>4) Bak de plaattaart in de oven in ca. 25 min. goudbruin en gaar.</p><br />
+  <div class="meerrecepten"></div>
 
-<p>Smakelijk eten!</p>
-<p>Bron: Super De Boer</p>
+  <div class="recept1">
+    <h1>Aspergetaart</h1>
+        <br>
+    <img src="images/foto2_thumbnail.jpg" style="width: 50%;">
+  </div>
+  <div class="recept2">
+<p5>
+  Bereidingstijd: 20 min.<br>
+  Aantal personen: 4
+</p5>
+<br><br>
+    <p4>
+    Ingrediënten:<br><br>
+
+    <li> 1 kg witte asperges</li>
+    <li> zout</li>
+    <li> 2 el paneermeel</li>
+    <li> 6 plakjes roomboter- bladerdeeg</li>
+    <li> 2 eieren</li>
+    <li> 100 ml crème fraîche</li>
+    <li> 100 g geraspte jong belegen kaas</li>
+    <li> versgemalen peper</li>
+    <li> 100 g ham</li>
+    <li> bakpapier</li>
 
 
-</div><!--/tekst-->
+  </p4>
 
-        <div class="photosideshadow">
-            <div class="photoside">
-            <h1>Aspergetaart</h1>
-              <p>Bereidingstijd: 20 min.</p>
-              <p>Aantal personen: 4</p>
-                <div class="photoborder">
-                    <img src="images/foto2_thumbnail.jpg" width="220" height="161" />
-                </div><!--/photoborder-->
-            </div><!--/photoside>
-        </div><!--/photosideshadow-->
-    </div><!--/content-->
+  </div>
+  <div class="recept3">
+    <br>
+    <h1>Bereiden:</h1>
+    <p4>
+
+      Verwarm de oven voor op 225⁰C (hete lucht 200⁰C).
+      Kook de geschilde asperges ca. 8 min. in een pan met ruim kokend water met eventueel zout en suiker.
+      Giet af (bewaar het kookvocht als basisbouillon voor bijv. soep) en laat het afkoelen.
+      Bekleed een bakplaat met bakpapier.
+      Maak hierop van het bladerdeeg een bodem, door de deegplakjes tegen elkaar aan te leggen en de naden goed dicht te drukken.
+      Vouw de deegranden dubbel tot een opstaand randje.
+      Klop de eieren met crème fraîche en geraspte kaas door elkaar en breng op smaak met peper en zout.
+      Leg de asperges om en om naast elkaar op het deeg of maak er eerst kleine stukjes van en leg ze er dan op.
+      Verdeel de ham er in repen tussen en verdeel het eimengsel erover.
+      Bak de plaattaart in de oven in ca. 25 min. goudbruin en gaar.
+      <br><br>
+      Smakelijk eten!
+      <br><br>
+      Bron: Super De Boer
+
+
+
+  </p4>
+
+  </div>
+
+  <div class="sectiontussen1"></div><!-- lege tussen ruimte van 7vh -->
+  <div class="sectiontussen2"></div><!-- lege tussen ruimte van 7vh -->
+  <div class="sectiontussen3"></div><!-- lege tussen ruimte van 7vh -->
+</div><!--/Grid recepten-->
 </div><!--/container-->
 
 <?php include 'footer.php'; ?>

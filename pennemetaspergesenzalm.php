@@ -6,35 +6,57 @@
 
 <?php include 'header.php';?> <!-- Roept de header op  -->
 
-    <div class="content">
-    	<div class="tekst">
-        	<h1>Penne met asperges en zalm</h1>
+<div class="gridrecepten">
 
-<i>Ingrediënten:</i>
-<p>·         1 kg witte asperges</p>
-<p>·         250 g penne rigate (pasta, zak à 500 g)</p>
-<p>·         1 citroen, schoongeboend</p>
-<p>·         100 g ricotta (kaas)</p>
-<p>·         250 g verse zalmfilet, in blokjes</p>
-<p>·         1 zakje verse basilicum (15 g), in dunne reepjes</p><br />
-<p><i>Bereiden:</i></p>
-<p>Breng in een grote pan ruim water met eventueel zout aan de kook. Snijd de geschilde asperges in stukjes van 4 centimeter. Doe de penne en de stukjes asperge in het kokende water en kook ze 10 minuten gaar. Giet de pasta met asperges af. Rasp de schil van de citroen en pers 'm uit. Roer de ricotta met de citroenrasp, 1 eetlepel citroensap en de zalm door de pasta met asperges en verwarm het geheel voorzichtig roerend 2-3 minuten op middelhoog vuur tot de zalm net gaar is. Breng op smaak met zout en (versgemalen) peper en roer de helft van het basilicum erdoor. Schep de penne met asperges en zalm op vier borden en strooi de rest van het basilicum erover.</p><br />
-<p>Smakelijk eten!                                              Bron: Albert Heijn</p>
+  <div class="meerrecepten"></div>
+
+  <div class="recept1">
+    <h1>Penne met asperges en zalm</h1>
+        <br>
+    <img src="images/foto6_thumbnail.jpg" style="width: 50%;">
+  </div>
+  <div class="recept2">
+<p5>
+  Bereidingstijd: 20 min.<br>
+  Aantal personen: 4
+</p5>
+<br><br>
+    <p4>
+    Ingrediënten:<br><br>
+
+    <li>1 kg witte asperges</li>
+    <li>250 g penne rigate (pasta, zak à 500 g)</li>
+    <li>1 citroen, schoongeboend</li>
+    <li>100 g ricotta (kaas)</li>
+    <li>250 g verse zalmfilet, in blokjes</li>
+    <li>1 zakje verse basilicum (15 g), in dunne reepjes</li>
 
 
-</div><!--/tekst-->
+  </p4>
 
-        <div class="photosideshadow">
-            <div class="photoside">
-            <h1>Penne met asperges en zalm</h1>
-              <p>Bereidingstijd: 20 min.</p>
-              <p>Aantal personen: 4</p>
-                <div class="photoborder">
-                    <img src="images/foto6_thumbnail.jpg" width="220" height="161" />
-                </div><!--/photoborder-->
-            </div><!--/photoside>
-        </div><!--/photosideshadow-->
-    </div><!--/content-->
+  </div>
+  <div class="recept3">
+    <br>
+    <h1>Bereiden:</h1>
+    <p4>
+      Breng in een grote pan ruim water met eventueel zout aan de kook.
+      Snijd de geschilde asperges in stukjes van 4 centimeter.
+      Doe de penne en de stukjes asperge in het kokende water en kook ze 10 minuten gaar.
+      Giet de pasta met asperges af. Rasp de schil van de citroen en pers hem uit.
+      Roer de ricotta met de citroenrasp, 1 eetlepel citroensap en de zalm door de pasta met asperges en verwarm het geheel voorzichtig roerend 2-3 minuten op middelhoog vuur tot de zalm net gaar is.
+      Breng op smaak met zout en (versgemalen) peper en roer de helft van het basilicum erdoor.
+      Schep de penne met asperges en zalm op vier borden en strooi de rest van het basilicum erover.
+      Smakelijk eten!
+      Bron: Albert Heijn
+
+  </p4>
+
+  </div>
+
+  <div class="sectiontussen1"></div><!-- lege tussen ruimte van 7vh -->
+  <div class="sectiontussen2"></div><!-- lege tussen ruimte van 7vh -->
+  <div class="sectiontussen3"></div><!-- lege tussen ruimte van 7vh -->
+</div><!--/Grid recepten-->
 </div><!--/container-->
 
 <?php include 'footer.php'; ?>
