@@ -9,46 +9,34 @@
 
 <div class="gridreceptenpage">
 <!-- ______________________receptenpage1______________________ -->
-<a HREF="pittigepeperaspergesoep.php">
-  <div class="receptenpage1">
+<a class="receptenpage1" HREF="pittigepeperaspergesoep.php">
     <h1>Pittige pepersoep met <br> asperges</h1>
     <img src="images/foto7_thumbnail.jpg" width="120" height="106.5" />
-  </div>
 </a>
 <!-- ______________________receptenpage2______________________ -->
-<a HREF="roerbakaspergesencourgette.php">
-  <div class="receptenpage2">
+<a class="receptenpage2" HREF="roerbakaspergesencourgette.php">
     <h1>Roerbak asperges en <br> courgette</h1>
     <img src="images/foto5_thumbnail.jpg" width="120" height="106.5" />
-  </div>
 </a>
 <!-- ______________________receptenpage3______________________ -->
-<A HREF="pennemetaspergesenzalm.php">
-  <div class="receptenpage3">
+<A class="receptenpage3" HREF="pennemetaspergesenzalm.php">
     <h1>Penne met asperges en <br> zalm</h1>
     <img src="images/foto6_thumbnail.jpg" width="120" height="106.5" />
-  </div>
 </a>
 <!-- ______________________receptenpage4______________________ -->
-<A HREF="aspergegratin.php">
-  <div class="receptenpage4">
+<A class="receptenpage4" HREF="aspergegratin.php">
     <h1>Aspergegratin</h1>
     <img src="images/foto8_thumbnail.jpg" width="120" height="106.5" />
-  </div>
 </a>
 <!-- ______________________receptenpage5______________________ -->
-<A HREF="aspergesoep.php">
-  <div class="receptenpage5">
+<A class="receptenpage5" HREF="aspergesoep.php">
     <h1>Aspergesoep</h1>
     <img src="images/foto12_thumbnail.jpg" width="120" height="106.5" />
-  </div>
 </a>
 <!-- ______________________receptenpage6______________________ -->
-<A HREF="aspergetaart.php">
-  <div class="receptenpage6">
+<A div class="receptenpage6" HREF="aspergetaart.php">
     <h1>Aspergetaart</h1>
     <img src="images/foto9_thumbnail.jpg" width="120" height="106.5" />
-  </div>
 </a>
 
 
