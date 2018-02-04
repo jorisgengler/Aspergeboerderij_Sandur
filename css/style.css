@@ -1093,7 +1093,7 @@ input[type=submit]:hover {
 /*--------------------- receptenpage4 ---------------------*/
 .receptenpage6{
   grid-area: receptenpage6;
-  -ms-grid-row: 2;
+  -ms-grid-row: 1;
   -ms-grid-column: 3;
   -ms-grid-column-span: 1;
 
@@ -1111,24 +1111,15 @@ input[type=submit]:hover {
 /*--------------------- Tussen section ---------------------*/
 .receptentussen1{
 	grid-area: receptentussen1;
-  -ms-grid-row: 1;
-  -ms-grid-column: 1;
-  -ms-grid-column-span: 4;
 	min-height: 2vh;
 }
 
 .receptentussen2{
 	grid-area: receptentussen2;
-  -ms-grid-row: 3;
-  -ms-grid-column: 1;
-  -ms-grid-column-span: 4;
 	min-height: 7vh;
 }
 .receptentussen3{
 	grid-area: receptentussen3;
-  -ms-grid-row: 5;
-  -ms-grid-column: 1;
-  -ms-grid-column-span: 4;
 	min-height: 7vh;
 }
 
@@ -1400,8 +1391,11 @@ input[type=submit]:hover {
 /* ------------------------------------------fresh food academy------------------------------------------ */
 .gridfreshfoodacademy {
 	display: grid;
+  display: -ms-grid;
 	grid-template-columns: 25vw 25vw 25vw 25vw;
+  -ms-grid-columns: 25vw 25vw 25vw 25vw;
 	grid-template-rows: 1fr;
+  -ms-grid-rows: 1fr;
 	grid-template-areas:
   "freshfoodacademyhome freshfoodacademyhome freshfoodacademyhome freshfoodacademyhome"
   "sectiontussen1 sectiontussen1 sectiontussen1 sectiontussen1"
@@ -1411,6 +1405,9 @@ input[type=submit]:hover {
 }
 .freshfoodacademyhome{
   grid-area: freshfoodacademyhome;
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 4;
   background:url(../images/dienblad_kroket.jpg);
   background-attachment: fixed;
   background-position: center center;
@@ -1423,16 +1420,23 @@ input[type=submit]:hover {
 }
 .freshfoodacademy1{
   grid-area: freshfoodacademy1;
+  -ms-grid-row: 2;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
 }
 .freshfoodacademy2{
   grid-area: freshfoodacademy2;
+  -ms-grid-row: 2;
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 2;
 }
 .freshfoodacademy3{
   grid-area: freshfoodacademy3;
+  -ms-grid-row: 2;
+  -ms-grid-column: 3;
+  -ms-grid-column-span: 1;
 }
-.freshfoodacademy4{
-  grid-area: freshfoodacademy4;
-}
+
 .textvlakwhitedoorzichtigfresh{
   	border: 1px #1F4E79; /*blue*/
     /* border-style: solid; */
@@ -1597,8 +1601,11 @@ input[type=submit]:hover {
 /* ---------------------------------------excursiepagina--------------------------------------- */
 .excursiepaginagrid {
 	display: grid;
+  display: -ms-grid;
 	grid-template-columns: 70vw 30vw;
+  -ms-grid-columns: 70vw 30vw;
 	grid-template-rows: 1fr;
+  -ms-grid-rows: 1fr;
 	grid-template-areas:
   "sectiontussen1 sectiontussen1"
   "excursie1 excursie2"
@@ -1607,18 +1614,18 @@ input[type=submit]:hover {
 }
 .excursie1{
     grid-area: excursie1;
+    -ms-grid-row: 1;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
     margin-left: 17%;
 }
 .excursie2{
     grid-area: excursie2;
+    -ms-grid-row: 1;
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 1;
     margin-left: 10%;
 }
-.excursie3{
-    grid-area: excursie3;
-    margin-left: 17%;
-}
-
-
 .reserveren{
   width: 70%;
 }
@@ -1737,13 +1744,67 @@ input[type=submit]:hover {
 }
 .producten1{
   grid-area: producten1;
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
   margin-left: 12%;
   margin-right: 4%;
 }
 .producten2{
   grid-area: producten2;
+  -ms-grid-row: 1;
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 1;
   margin-top: 80px;
 }
 .producten3{
   grid-area: producten3;
+  -ms-grid-row: 1;
+  -ms-grid-column: 3;
+  -ms-grid-column-span: 1;
 }
+
+
+/*------------------------------- Mobiel versie -------------------------------*/
+@media screen and (max-width: 800px) {
+
+  .gridproducten {
+  	display: grid;
+    display: -ms-grid;
+    margin-top: 3vh;
+  	grid-template-columns: 100vw;
+    -ms-grid-columns: 100vw;
+  	grid-template-rows: 1fr;
+    -ms-grid-rows: 1fr;
+  	grid-template-areas:
+    "producten1"
+    "producten2"
+    "producten3"
+
+   ;
+  }
+.producten1{
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
+
+  margin-left: 5%;
+  margin-right: 5%;
+}
+.producten2{
+  -ms-grid-row: 2;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
+
+  margin-top: 30px;
+  margin-right: 5%;
+  margin-left: 5%;
+  margin-bottom: 5%;
+}
+.producten3{
+  -ms-grid-row: 3;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
+}
+
+}/*Media Query Mobiel*/
