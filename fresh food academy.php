@@ -9,7 +9,11 @@
 <div class="gridfreshfoodacademy">
 
   <div class="freshfoodacademyhome" id="freshfoodacademyhome"> <!-- home page freshfoodacademy -->
-    <div class="textvlakwhitedoorzichtigfresh"><h3 class="center">Fresh food academy</h3></div>
+    <div class="textvlakwhitedoorzichtigfresh">  <!--textvlakwhitedoorzichtig1 -->
+      <h3>
+        Fresh food academy
+      </h3>
+    </div>
     <div class="demo">
       <a href="#sectiontussen1"><span></span></a> <!-- button -->
     </div>
