@@ -1716,3 +1716,34 @@ input[type=submit]:hover {
   text-align: center;
   margin-top: 4%;
 }
+
+
+
+
+
+/* ------------------------------------------grid producten------------------------------------------ */
+.gridproducten {
+	display: grid;
+  display: -ms-grid;
+  margin-top: 3vh;
+	grid-template-columns: 40vw 51vw 9vw;
+  -ms-grid-columns: 35vw 48vw 17vw;
+	grid-template-rows: 1fr;
+  -ms-grid-rows: 1fr;
+	grid-template-areas:
+  "producten1 producten2 producten3"
+
+ ;
+}
+.producten1{
+  grid-area: producten1;
+  margin-left: 12%;
+  margin-right: 4%;
+}
+.producten2{
+  grid-area: producten2;
+  margin-top: 80px;
+}
+.producten3{
+  grid-area: producten3;
+}
