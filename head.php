@@ -16,6 +16,7 @@
 <link rel="icon" href="images/tablogo.png">
 <!-- CSS -->
 <link rel="stylesheet" type="text/css" media="all" href="css/style.css">
+<link rel="stylesheet" type="text/css" media="print" href="css/print.css" />
 <!-- Javascript -->
 <script src="javascript/scrollreveal.js" type="text/javascript"></script>
 <script src="javascript/scrollreveal.min.js" type="text/javascript"></script>
