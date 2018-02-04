@@ -30,7 +30,7 @@
 <div class="section1" id="section1">
       <div class="buttonplacedown">
           <h2>De boerderij</h2>
-          <img  src="images/rsz_de_boerderij.jpg" alt="Boerderij" style="max-width: 95%;">
+          <a href="de_boerderij.php"><img  src="images/rsz_de_boerderij.jpg" alt="Boerderij" style="max-width: 95%;"> </a>
           <br><br>
         <div class="textvlak">
           <p>
@@ -74,7 +74,7 @@
 <div class="section3">
         <div class="buttonplacedown">
           <h2>Excursies</h2>
-          <img  src="images/rsz_excursies.jpg" alt="Boerderij" style="max-width: 95%;">
+          <a href="excursies.php"><img  src="images/rsz_excursies.jpg" alt="Boerderij" style="max-width: 95%;"> </a>
           <br><br>
 
         <div class="textvlak">
