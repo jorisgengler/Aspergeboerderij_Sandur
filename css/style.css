@@ -1629,6 +1629,36 @@ input[type=submit]:hover {
 .reserveren{
   width: 70%;
 }
+/*------------------------------- Mobiel versie -------------------------------*/
+@media screen and (max-width: 800px) {
+  .excursiepaginagrid {
+  	display: grid;
+    display: -ms-grid;
+  	grid-template-columns: 100vw;
+    -ms-grid-columns: 100vw;
+  	grid-template-rows: 1fr;
+    -ms-grid-rows: 1fr;
+  	grid-template-areas:
+    "sectiontussen1"
+    "excursie1"
+    "sectiontussen2"
+    "excursie2"
+    "sectiontussen3"
+   ;
+  }
+.excursie1{
+  margin-left: 5%;
+  margin-right: 5%;
+  }
+.excursie2{
+  margin-left: 5%;
+  margin-right: 5%;
+}
+.centermobiel{
+  width: 400px;
+}
+
+}/*Media Query Mobiel*/
 
 
 /* ---------------------------- Grid Recepten ---------------------------- */
