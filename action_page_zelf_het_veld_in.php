@@ -3,6 +3,7 @@
 $email = (isset($_POST["email"])) ? $_POST["email"] : "" ;
 $firstname = (isset($_POST["firstname"])) ? $_POST["firstname"] : "" ;
 $personen = (isset($_POST["personen"])) ? $_POST["personen"] : "" ;
+$maand = (isset($_POST["maand"])) ? $_POST["maand"] : "" ;
 
 require 'php_action/mailer.php';
 
@@ -18,7 +19,11 @@ $message .= '<p>
 U heeft zich aangemeld voor de excursie: Zelf het veld in?
 </p>';
 
-$message .= 'u heeft zich aangemeld met ' . "$personen";
+$message .= 'U heeft zich aangemeld met: ' . "$personen";
+$message .= '<br>';
+$message .= 'Op datum: ' . "$maand";
+$message .= '<br>';
+$message .= 'U krijgt hiervan nog een bevestiging';
 
 $message .= '<p style="color:black;">Voor bestellingen kunt u het volgende e-mailadres gebruiken: bestellen@aspergeboerderijsandur.nl</p>';
 $message .= '<a href="https://www.asperge.jorisgengler.nl"><img style="width: 310px; height: auto;  " src="https://www.asperge.jorisgengler.nl/images/logo.png"></a>';
@@ -38,7 +43,5 @@ sendMail($to, $subject, $message, $headers); //send mail
 
 //------------------------------ after zend ------------------------------//
     // header("Location: ../Nieuwsbrief.php");
-
-?>
 
 ?>
