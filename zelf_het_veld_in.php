@@ -45,19 +45,18 @@
     <div class="centermobiel">
         <div class="contactveld">
 
-          <form  action="action_page_zelf_het_veld_in.php" method="post">
+          <form name="reserrveren" action="action_page_zelf_het_veld_in.php" onsubmit="return validateFormreserrveren();" method="post">
 <br>
             <label for="firstname"> </label>
-            <input type="text" class="reserveren" style="width: 70%;" id="firstname" name="firstname" placeholder="Uw naam">
+            <input type="text" class="reserveren" style="width: 70%;" id="firstname" name="firstname" placeholder="Uw naam" required>
 <br>
 <br>
             <label for="email">  </label>
-            <input type="text" class="reserveren" style="width: 70%;" id="email" name="email" placeholder="Uw E-mail">
+            <input type="text" class="reserveren" style="width: 70%;" id="email" name="email" placeholder="Uw E-mail" required>
 <br>
 <br>
 
-            <select name="personen" id="personen" class="reserveren">
-              <option value="aantal personen">aantal personen</option>
+            <select name="personen" id="personen" class="reserveren personen">
               <option value="1 personen">1 persoon</option>
               <option value="2 personen">2 personen</option>
               <option value="3 personen">3 personen</option>
@@ -80,7 +79,7 @@
 
 
 
-<input id="maand" name="maand" class="reserveren" type="date">
+<input id="maand" name="maand" class="reserveren" type="date" required>
 
 
 
