@@ -42,6 +42,7 @@
 <div class="excursie2">
 
     <h1>Reserveren</h1>
+    <div class="centermobiel">
         <div class="contactveld">
 
           <form  action="action_page_zelf_het_veld_in.php" method="post">
@@ -92,7 +93,9 @@
             <input type="submit" value="Verzend">                      </input>
           </form>
         </div>
+</div><!--/center mobiel-->
 
+<?php include 'meerexcursies.php'; ?>
 </div> <!--/excursie2-->
 
 
@@ -100,6 +103,7 @@
 
 <div class="sectiontussen1"></div><!-- lege tussen ruimte van 7vh -->
 <div class="sectiontussen2"></div><!-- lege tussen ruimte van 7vh -->
+<div class="sectiontussen3"></div><!-- lege tussen ruimte van 7vh -->
 
 </div><!--/excursiepaginagrid-->
 </div><!--/container-->

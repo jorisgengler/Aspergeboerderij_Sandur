@@ -51,6 +51,8 @@ info@aspergeboerderijsandur.nl  &nbsp;&nbsp;&nbsp;&nbsp;        tel: 0591-554375
   </p6> -->
 </div>
 <div class="excursie2">
+
+      <?php include 'meerexcursies.php'; ?>
 <!--
     <h1>Reserveren</h1>
         <div class="contactveld">
@@ -107,6 +109,7 @@ info@aspergeboerderijsandur.nl  &nbsp;&nbsp;&nbsp;&nbsp;        tel: 0591-554375
 
 <div class="sectiontussen1"></div><!-- lege tussen ruimte van 7vh -->
 <div class="sectiontussen2"></div><!-- lege tussen ruimte van 7vh -->
+<div class="sectiontussen3"></div><!-- lege tussen ruimte van 7vh -->
 
 </div><!--/excursiepaginagrid-->
 </div><!--/container-->

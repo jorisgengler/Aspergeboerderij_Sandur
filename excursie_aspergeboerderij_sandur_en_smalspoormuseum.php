@@ -41,6 +41,7 @@
 
 </div>
 <div class="excursie2">
+        <?php include 'meerexcursies.php'; ?>
 <!--
     <h1>Reserveren</h1>
         <div class="contactveld">
@@ -97,6 +98,7 @@
 
 <div class="sectiontussen1"></div><!-- lege tussen ruimte van 7vh -->
 <div class="sectiontussen2"></div><!-- lege tussen ruimte van 7vh -->
+<div class="sectiontussen3"></div><!-- lege tussen ruimte van 7vh -->
 
 </div><!--/excursiepaginagrid-->
 </div><!--/container-->
