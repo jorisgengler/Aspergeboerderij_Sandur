@@ -31,6 +31,10 @@
 	margin:0;
 	padding:0;
 }
+html{
+  overflow-x:hidden;
+  overflow-y:scroll;
+}
 body { /* Overflow in body */
     overflow-x:hidden;
 		overflow-y:scroll;
@@ -1468,32 +1472,32 @@ input[type=submit]:hover {
 /* ------------------------------------------De boerderij------------------------------------------ */
 .griddeboerderij {
 	display: grid;
-	grid-template-columns: 50vw 50vw;
+	grid-template-columns: 5vw 45vw 45vw 5vw;
 	grid-template-rows: 1fr;
 	grid-template-areas:
-  "sectiontussen1 sectiontussen1"
-  "deboerderij1 deboerderij2"
-  "sectiontussen2 sectiontussen2"
-  "deboerderij3 deboerderij4"
-  "sectiontussen3 sectiontussen3"
-  "deboerderij5 deboerderij6"
-  "sectiontussen4 sectiontussen4"
-  "deboerderij7 deboerderij8"
-  "sectiontussen5 sectiontussen5"
-  "deboerderij9 deboerderij10"
-  "sectiontussen6 sectiontussen6"
+  "deboerderijlinks sectiontussen1 sectiontussen1 deboerderijrechts"
+  "deboerderijlinks deboerderij1 deboerderij2 deboerderijrechts"
+  "deboerderijlinks sectiontussen2 sectiontussen2 deboerderijrechts"
+  "deboerderijlinks deboerderij3 deboerderij4 deboerderijrechts"
+  "deboerderijlinks sectiontussen3 sectiontussen3 deboerderijrechts"
+  "deboerderijlinks deboerderij5 deboerderij6 deboerderijrechts"
+  "deboerderijlinks sectiontussen4 sectiontussen4 deboerderijrechts"
+  "deboerderijlinks deboerderij7 deboerderij8 deboerderijrechts"
+  "deboerderijlinks sectiontussen5 sectiontussen5 deboerderijrechts"
+  "deboerderijlinks deboerderij9 deboerderij10 deboerderijrechts"
+  "deboerderijlinks sectiontussen6 sectiontussen6 deboerderijrechts"
+  "deboerderijlinks deboerderij11 deboerderij12 deboerderijrechts"
+  "deboerderijlinks sectiontussen7 sectiontussen7 deboerderijrechts"
  ;
 }
+.deboerderijlinks{
+  grid-area: deboerderijlinks;
+}
+.deboerderijrechts{
+  grid-area: deboerderijrechts;
+}
 .deboerderij{
-  font-family: 'droid_sansregular';
-  color:black;
-  border: 2px #1F4E79; /*blue*/
-  padding-left: 12%;
-  padding-right: 1%;
-  margin-left: 11%;
-  margin-right: 11%;
-  position: relative;
-  /* border-style: solid; */
+  padding-right: 30px;
 }
 
 .deboerderij1{
@@ -1501,6 +1505,7 @@ input[type=submit]:hover {
 }
 .deboerderij2{
   grid-area: deboerderij2;
+  text-align: right;
 }
 .deboerderij3{
   grid-area: deboerderij3;
@@ -1513,6 +1518,7 @@ input[type=submit]:hover {
 }
 .deboerderij6{
   grid-area: deboerderij6;
+  text-align: right;
 }
 .deboerderij7{
   grid-area: deboerderij7;
@@ -1525,7 +1531,68 @@ input[type=submit]:hover {
 }
 .deboerderij10{
   grid-area: deboerderij10;
+  text-align: right;
 }
+.deboerderij11{
+  grid-area: deboerderij11;
+}
+.deboerderij12{
+  grid-area: deboerderij12;
+}
+.deboerderijfotoformaat{
+  max-width: 75%;
+}
+
+@media screen and (max-width: 800px) {
+
+  .griddeboerderij {
+  	display: grid;
+    display: -ms-grid;
+    margin-top: 3vh;
+  	grid-template-columns: 100vw;
+    -ms-grid-columns: 100vw;
+  	grid-template-rows: 1fr;
+    -ms-grid-rows: 1fr;
+  	grid-template-areas:
+    "deboerderij1"
+    "deboerderij2"
+    "deboerderij4"
+    "deboerderij3"
+    "deboerderij5"
+    "deboerderij6"
+    "deboerderij8"
+    "deboerderij7"
+    "deboerderij9"
+    "deboerderij10"
+    "deboerderij11"
+    "deboerderij12"
+   ;
+  }
+.deboerderij{
+  padding-left: 4%;
+  padding-right: 4%;
+  padding-bottom: 5%;
+}
+.deboerderij2{
+  text-align: center;
+}
+.deboerderij3{
+  text-align: center;
+}
+.deboerderij6{
+  text-align: center;
+}
+.deboerderij7{
+  text-align: center;
+}
+.deboerderij10{
+  text-align: center;
+}
+.deboerderijfotoformaat{
+  max-width: 100%;
+}
+
+  }/*Media Query Mobiel*/
 
 /* ------------------------------------------excursie------------------------------------------ */
 
@@ -1547,7 +1614,7 @@ input[type=submit]:hover {
   position: relative;
   color: #333;
   margin-top: 35px;
-  min-height: 87vh;
+  min-height: 540px;
   box-shadow: 0px 0px 62px 0px grey;
 }
 .textareaexcursies{
