@@ -44,6 +44,9 @@
 <div class="receptentussen1"></div>
 <div class="receptentussen2"></div>
 <div class="receptentussen3"></div>
+<div class="receptentussen4"></div>
+<div class="receptentussen5"></div>
+<div class="receptentussen6"></div>
 
 
 </div> <!--receptengrid-->
