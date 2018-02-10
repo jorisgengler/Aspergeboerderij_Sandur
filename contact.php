@@ -18,8 +18,8 @@
   Vaart N.Z. 186<br>
   7833 HJ Nieuw Amsterdam<br>
   Tel. 0591-554375<br>
-  E-mail: info@aspergeboerderijsandur.nl<br><br>
-  Voor bestellingen kunt u het volgende e-mailadres gebruiken: bestellen@aspergeboerderijsandur.nl
+  E-mail: <a href='m&#97;i&#108;to&#58;inf&#111;&#37;40%61spe&#37;72&#103;&#37;65&#98;%6&#70;er&#100;er%69%6Asandur&#46;nl'>&#105;nf&#111;&#64;asp&#101;&#114;geb&#111;erderi&#106;sandu&#114;&#46;&#110;l</a><br><br>
+  Voor bestellingen kunt u het volgende e-mailadres gebruiken: <a href='&#109;a&#105;lto&#58;be%73tell&#101;&#37;6E%4&#48;a%&#55;3p&#37;&#54;5&#114;&#37;&#54;7&#101;%&#54;2o%6&#53;rderijsa%&#54;Ed&#117;r&#46;nl'>b&#101;stellen&#64;asp&#101;rge&#98;oer&#100;&#101;&#114;i&#106;sa&#110;&#100;ur&#46;nl</a>
 </p>
 <br>
 <div class="socialmedia">
