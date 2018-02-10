@@ -136,6 +136,7 @@
 <!-- __________________________Section6__________________________ -->
 <div class="section6">
   <p2>
+
     De boerderij ligt aan de Vaart Noordzijde 186 tussen Erica en Nieuw Amsterdam.<br><br>
     De aspergevelden liggen op zandgronden en hebben volgens onze vaste klanten een zachte, iets zoete smaak.
     Bepalend voor deze smaak is onder andere de manier waarop we onze asperges verzorgen.<br><br>
@@ -144,7 +145,7 @@
   </p2>
     <br><br><br>
     <div class="center">
-      <a href="excursies.php"><div class="button buttoncolorgreen"> <p>Overzicht van activiteiten & excursies</p></div></a>
+      <a href="#"><div class="button buttoncolorgreen"> <p>Overzicht van activiteiten & excursies</p></div></a>
     </div>
 </div><!-- /section6 -->
 
