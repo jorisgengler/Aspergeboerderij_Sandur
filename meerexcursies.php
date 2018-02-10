@@ -1,6 +1,6 @@
 <br>
 
-<h6>excursies</h6>
+<h6>Excursies</h6>
 <br>
 <P7>
 <i class="rightarrow"></i>  <a href="zelf_het_veld_in.php">Zelf het veld in?</a> <br>
