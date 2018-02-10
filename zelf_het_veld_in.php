@@ -57,7 +57,7 @@
 <br>
 
             <select name="personen" id="personen" class="reserveren personen">
-              <option value="1 personen">1 persoon</option>
+              <option value="1 persoon">1 persoon</option>
               <option value="2 personen">2 personen</option>
               <option value="3 personen">3 personen</option>
               <option value="4 personen">4 personen</option>
@@ -79,7 +79,7 @@
 
 
 
-<input id="maand" name="maand" class="reserveren" type="date" required>
+<input id="maand" name="maand" class="reserveren" type="date" min="2018-04-01"max="2018-06-30"required>
 
 
 
