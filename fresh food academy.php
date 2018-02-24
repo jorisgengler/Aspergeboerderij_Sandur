@@ -42,9 +42,28 @@
 
       <h1>Culinair genieten</h1>
 
+      Lekker genieten van onze gerechten zonder zelf aan de slag te hoeven?
+      Maar wel met de gezellige keukengeluiden en reuring van een professionele keuken?
+      Onze Fresh Food Academy is vooral een geniet, ontdek en blijf-even-zitten-om-te-proeven-met-je-gezin-en-vrienden-ruimte.
+<br><br>
       In samenwerking met koks uit de omgeving verzorgen we diverse culinaire middagen en avonden.
       De ene keer is het een 8 gangenmenu dan een live-cooking buffet of een kook-workshop.
+<br><br>
+      Onze professionele keuken is een grote open keuken waar u en uw gasten ontspannen een kijkje kunnen nemen tijdens het diner of lunch.
+      De chef bereidt á la minute de diverse gerechten.
+<br><br>
 
+<b>
+    De datums voor de culinaire avonden die tot nu toe gepland zijn:
+<br><br>
+
+    Zaterdag 28 april<br>
+    Woensdag 2 mei (Voor ouders, opa's en oma's, met kinderen)<br>
+    vrijdag 18 mei<br>
+    Maandag 21 mei (2ᵉ Pinksterdag)<br>
+    Zaterdag 26 mei<br>
+    Zondag 17 juni (Vaderdag)
+</b>
       </p>
     </div>
     <div class="freshfoodacademy3"></div>
