@@ -15,30 +15,42 @@
       </h3>
     </div>
     <div class="demo">
-      <a href="#sectiontussen1"><span></span></a> <!-- button -->
+      <a href="#freshfoodacademy1"><span></span></a> <!-- button -->
     </div>
   </div>
 
 
 
-     <div class="freshfoodacademy1"></div>
+     <div id="freshfoodacademy1" class="mobielversie freshfoodacademy1">
+       <h3>Fresh Food Academy</h3>
+       <br>
+       Voorlichting over gezond en lekker eten vinden wij heel belangrijk. Niet alleen over asperges, maar over verse groenten in het algemeen.
+       Daarom hebben we de Fresh Food Academy opgezet, waar je meer te weten kunt komen over het verwerken van verse groente.
+       Maar waar je ook kunt proeven of samen met een kok aan de slag kunt gaan.
+       Natuurlijk wordt er dan ook meestal een kijkje op de velden genomen.
+       <br><br>
+       Probeer eens onze vegetarische aspergekroket,  gegrilde asperges omwikkeld met Italiaanse ham,
+       broodje gezond met kaas, eitje, ham en asperges of een traditioneel aspergemaaltijd.
+       <br><br>
 
-    <div class="freshfoodacademy2">
+     </div>
+
+    <div class="mobielversie freshfoodacademy2">
+    <img class="deboerderijfotoformaat" src="images/rsz_culinair-bord.jpg" alt="culinair-bord">
+    </div>
+
+    <div class="mobielversie freshfoodacademy3">
+    <img class="deboerderijfotoformaat" src="images/ontbijt.jpg" alt="ontbijt">
+
+    </div>
+    <div class="mobielversie freshfoodacademy4">
       <p>
       <!-- Wij verzorgen voor bedrijven en particulieren informatieve programma‘s over vers voedsel.
       Op een ontspannen wijze nemen we u mee in de wereld van het bewaren en verwerken van geoogste producten.
       Deze programma‘s zijn ook geschikt als bedrijfsuitje of teambuilding.
       Wilt u meer informatie dan kunt u een e-mail sturen. -->
 
-      <h3>Fresh Food Academy</h3>
-      Voorlichting over gezond en lekker eten vinden wij heel belangrijk. Niet alleen over asperges, maar over verse groenten in het algemeen.
-      Daarom hebben we de Fresh Food Academy opgezet, waar je meer te weten kunt komen over het verwerken van verse groente.
-      Maar waar je ook kunt proeven of samen met een kok aan de slag kunt gaan.
-      Natuurlijk wordt er dan ook meestal een kijkje op de velden genomen.
-      <br><br>
-      Probeer eens onze vegetarische aspergekroket,  gegrilde asperges omwikkeld met Italiaanse ham,
-      broodje gezond met kaas, eitje, ham en asperges of een traditioneel aspergemaaltijd.
-      <br><br>
+
 
       <h1>Culinair genieten</h1>
 
@@ -53,26 +65,45 @@
       De chef bereidt á la minute de diverse gerechten.
 <br><br>
 
-<b>
-    De datums voor de culinaire avonden die tot nu toe gepland zijn:
-<br><br>
 
-    Zaterdag 28 april<br>
-    Woensdag 2 mei (Voor ouders, opa's en oma's, met kinderen)<br>
-    vrijdag 18 mei<br>
-    Maandag 21 mei (2ᵉ Pinksterdag)<br>
-    Zaterdag 26 mei<br>
-    Zondag 17 juni (Vaderdag)
-</b>
-      </p>
+
     </div>
-    <div class="freshfoodacademy3"></div>
-    <div class="freshfoodacademy4"></div>
 
-    <div id="sectiontussen1" class="sectiontussen1"></div> <!-- lege tussen ruimte van 7vh -->
-    <div id="sectiontussen2" class="sectiontussen2"></div> <!-- lege tussen ruimte van 7vh -->
+    <div class="mobielversie freshfoodacademy5">
+      <b>
+          De datums voor de culinaire avonden die tot nu toe gepland zijn:
+      <br><br>
 
-</div>
+          Zaterdag 28 april<br>
+          Woensdag 2 mei (Voor ouders, opa's en oma's, met kinderen)<br>
+          vrijdag 18 mei<br>
+          Maandag 21 mei (2ᵉ Pinksterdag)<br>
+          Zaterdag 26 mei<br>
+          Zondag 17 juni (Vaderdag)
+      </b>
+            </p>
+    </div>
+    <div class="mobielversie freshfoodacademy6">
+      <video id="videoElementId" controls loop muted>
+       <source src="videos/FreshFoodAcademy.mp4" type="video/mp4">
+       <source src="movie.ogg" type="video/ogg">
+     Your browser does not support the video tag.
+     </video>
+     <script>
+     window.addEventListener('load', function(){
+         var newVideo = document.getElementById('videoElementId');
+         newVideo.addEventListener('ended', function() {
+             this.currentTime = 0;
+             this.play();
+         }, false);
+
+         newVideo.play();
+
+     });
+     </script>
+    </div>
+      <div class="sectiontussen1"></div><!-- lege tussen ruimte van 7vh -->
+</div><!--/end grid-->
 
 </div><!--/container-->
 

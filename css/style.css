@@ -1396,24 +1396,30 @@ input[type=submit]:hover {
 }
 /* ------------------------------------------fresh food academy------------------------------------------ */
 .gridfreshfoodacademy {
+
 	display: grid;
   display: -ms-grid;
-	grid-template-columns: 25vw 25vw 25vw 25vw;
-  -ms-grid-columns: 25vw 25vw 25vw 25vw;
+	grid-template-columns: 50vw 50vw;
+  -ms-grid-columns: 50vw 50vw;
 	grid-template-rows: 1fr;
   -ms-grid-rows: 1fr;
 	grid-template-areas:
-  "freshfoodacademyhome freshfoodacademyhome freshfoodacademyhome freshfoodacademyhome"
-  "sectiontussen1 sectiontussen1 sectiontussen1 sectiontussen1"
-  "freshfoodacademy1 freshfoodacademy2 freshfoodacademy2 freshfoodacademy3"
-  "sectiontussen2 sectiontussen2 sectiontussen2 sectiontussen2"
+  "freshfoodacademyhome freshfoodacademyhome"
+  "freshfoodacademy1 freshfoodacademy2"
+  "freshfoodacademy3 freshfoodacademy4"
+  "freshfoodacademy5 freshfoodacademy6"
  ;
+}
+.mobielversie{
+  margin-top: 3vh;
+  margin-left: 65px;
+  margin-right: 65px;
 }
 .freshfoodacademyhome{
   grid-area: freshfoodacademyhome;
   -ms-grid-row: 1;
   -ms-grid-column: 1;
-  -ms-grid-column-span: 4;
+  -ms-grid-column-span: 2;
   background:url(../images/dienblad_kroket.jpg);
   background-attachment: fixed;
   background-position: center center;
@@ -1434,15 +1440,32 @@ input[type=submit]:hover {
   grid-area: freshfoodacademy2;
   -ms-grid-row: 2;
   -ms-grid-column: 2;
-  -ms-grid-column-span: 2;
+  -ms-grid-column-span: 1;
 }
 .freshfoodacademy3{
   grid-area: freshfoodacademy3;
-  -ms-grid-row: 2;
-  -ms-grid-column: 3;
+  -ms-grid-row: 3;
+  -ms-grid-column: 1;
   -ms-grid-column-span: 1;
 }
-
+.freshfoodacademy4{
+  grid-area: freshfoodacademy4;
+  -ms-grid-row: 3;
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 1;
+}
+.freshfoodacademy5{
+  grid-area: freshfoodacademy5;
+  -ms-grid-row: 4;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
+}
+.freshfoodacademy6{
+  grid-area: freshfoodacademy6;
+  -ms-grid-row: 4;
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 1;
+}
 .textvlakwhitedoorzichtigfresh{
   	border: 1px #1F4E79; /*blue*/
     /* border-style: solid; */
@@ -1452,11 +1475,38 @@ input[type=submit]:hover {
     text-align: center;
     font-size: 44px;
     margin-top: 24%;
-
-
-
-
 }
+
+@media screen and (max-width: 800px) {
+.gridfreshfoodacademy {
+
+  	display: grid;
+    display: -ms-grid;
+  	grid-template-columns: 100vw;
+    -ms-grid-columns: 100vw;
+  	grid-template-rows: 1fr;
+    -ms-grid-rows: 1fr;
+  	grid-template-areas:
+    "freshfoodacademyhome"
+    "freshfoodacademy1"
+    "freshfoodacademy2"
+    "freshfoodacademy4"
+    "freshfoodacademy3"
+    "freshfoodacademy5"
+    "freshfoodacademy6"
+   ;
+  }
+
+.mobielversie{
+  margin-top: 3vh;
+  margin-left: 4%;
+  margin-right: 4%;
+}
+}/*Media Query Mobiel*/
+
+
+
+
 @media screen and (max-width: 800px) {
 .textvlakwhitedoorzichtigfresh{
     	border: 1px #1F4E79; /*blue*/
