@@ -16,7 +16,7 @@
 
       <p8>Het aspergeseizoen begint in<br> april 2018.<br></p8>
 
-      <p2>  Als u op de hoogte wilt blijven van onze activiteiten, laat dan hier uw naam en e-mailadres achter.</p2>
+      <p4>  Als u op de hoogte wilt blijven van onze activiteiten of de start van het seizoen, laat dan hier uw e-mailadres achter.</p4>
 
 
       <div class="nieuwsbrief" id="nieuwsbrief">
@@ -28,8 +28,9 @@
       <input type="submit" name="register" value="Meld me aan"> </input>
       </form>
       </div>
+<br>
 
-
+      <p4> <a href="fresh food academy.php">Voor een overzicht van onze culinaire avonden, klik hier. </a>      </p4>
 
     </div>
 
@@ -174,7 +175,7 @@
 <h3 class="center">Blijf op de hoogte</h3>
 <br>
 <p>
-  Als u op de hoogte wilt blijven van onze activiteiten, laat dan hier uw naam en e-mailadres achter.
+  Als u op de hoogte wilt blijven van onze activiteiten, laat dan hier uw e-mailadres achter.
 
   <div class="nieuwsbrief" id="nieuwsbrief">
   <form name="nieuwsbrief" action="action_page_nieuwsbrief.php" onsubmit="return validateForm();" method="post">

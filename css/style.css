@@ -105,7 +105,7 @@ p7{ /* underline */
 }
 p8{ /*textvlakwhitedoorzichtig1*/
     font-family: 'droid_sansregular';
-    font-size: 28px;
+    font-size: 25px;
 }
 
 a{
@@ -517,7 +517,16 @@ input[type=submit]:hover {
 .buttonplacedown4{
 	padding-bottom: 27%;
 }
-
+.homebutton{
+  background-color: rgba(33, 91, 155, 1);
+  color: white;
+  padding: 4px 3px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 18px;
+  text-align: center;
+}
 /* -----------------------------------Navbar----------------------------------- */
 .headercolor{
   padding-bottom: 1%;
