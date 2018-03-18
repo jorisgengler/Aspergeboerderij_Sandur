@@ -12,7 +12,26 @@
   <div class="homepage" id="homepage">
     <?php include 'header.php';?> <!-- Roept de header op  -->
 
-    <div class="textvlakwhitedoorzichtig1"><p>Het aspergeseizoen begint in<br> april 2018. </p></div>
+    <div class="textvlakwhitedoorzichtig1">
+
+      <p8>Het aspergeseizoen begint in<br> april 2018.<br></p8>
+
+      <p2>  Als u op de hoogte wilt blijven van onze activiteiten, laat dan hier uw naam en e-mailadres achter.</p2>
+
+
+      <div class="nieuwsbrief" id="nieuwsbrief">
+      <form name="nieuwsbrief" action="action_page_nieuwsbrief.php" onsubmit="return validateForm();" method="post">
+      <label for="email"></label>
+      <br>
+      <input style="width: 90%;" type="text" id="email" name="email" placeholder="Email">
+      <br><br>
+      <input type="submit" name="register" value="Meld me aan"> </input>
+      </form>
+      </div>
+
+
+
+    </div>
 
       <div class="textvlakwhitedoorzichtigfresh">  <!--textvlakwhitedoorzichtig1 -->
         <h3>
