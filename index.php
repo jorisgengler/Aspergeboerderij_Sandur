@@ -16,6 +16,7 @@
 
       <p8>Het aspergeseizoen begint in<br> april 2018.<br></p8>
 
+
       <p4>  Als u op de hoogte wilt blijven van onze activiteiten of de start van het seizoen, laat dan hier uw e-mailadres achter.</p4>
 
 
@@ -35,10 +36,13 @@
     </div>
 
       <div class="textvlakwhitedoorzichtigfresh">  <!--textvlakwhitedoorzichtig1 -->
+
+        <div class="textvlakwhitedoorzichtigfreshachtergrond">
         <h3>
           Asperges, lekker en gezond!
-
         </h3>
+      </div>
+
       </div>
 <div class="demo">
   <a href="#sectiontussen1"><span></span></a>
