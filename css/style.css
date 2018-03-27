@@ -632,8 +632,15 @@ input[type=submit]:hover {
   margin-top: 0.2%;
   margin-left: 6%;
   text-align: center;
-  font-size: 26px;
+  font-size: 15px;
   position: absolute;
+}
+
+p8{
+  font-size: 20px;
+}
+h3{
+  font-size: 49px;
 }
 
 /*--------------------- Section1 ---------------------*/
@@ -1423,6 +1430,8 @@ input[type=submit]:hover {
   "freshfoodacademy1 freshfoodacademy2"
   "freshfoodacademy3 freshfoodacademy4"
   "freshfoodacademy5 freshfoodacademy6"
+  "freshfoodacademy7 freshfoodacademy8"
+
  ;
 }
 .mobielversie{
@@ -1481,6 +1490,20 @@ input[type=submit]:hover {
   -ms-grid-column: 2;
   -ms-grid-column-span: 1;
 }
+.freshfoodacademy7{
+  grid-area: freshfoodacademy7;
+  -ms-grid-row: 5;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
+}
+
+.freshfoodacademy8{
+  grid-area: freshfoodacademy8;
+  -ms-grid-row: 5;
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 1;
+}
+
 .textvlakwhitedoorzichtigfresh{
   	border: 1px #1F4E79; /*blue*/
     /* border-style: solid; */
@@ -1531,7 +1554,7 @@ input[type=submit]:hover {
       padding-bottom: 2px;
       text-align: center;
       font-size: 44px;
-      margin-top: 64%;
+      margin-top: 84%;
   }
 }/*Media Query Mobiel*/
 

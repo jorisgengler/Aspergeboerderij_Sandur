@@ -39,7 +39,7 @@
 <div class="arrangement">
         <div class="buttonplacedown">
 
-    <a href="excursie _met_uw_eigen_groep.php"> <img  src="images/rsz_excursies.jpg" alt="Boerderij" style="max-width: 100%;"></a>
+    <a href="excursie _met_uw_eigen_groep.php"> <img  src="images/rsz_excursies_2.jpg" alt="Boerderij" style="max-width: 100%;"></a>
 
 <div class="textareaexcursies">
   <h4>Excursie met uw eigen groep</h4>
@@ -66,7 +66,7 @@
 <div class="arrangement">
         <div class="buttonplacedown">
 
-    <a href="excursie_aspergeboerderij_sandur_en_smalspoormuseum.php"> <img  src="images/rsz_excursies.jpg" alt="Boerderij" style="max-width: 100%;"></a>
+    <a href="excursie_aspergeboerderij_sandur_en_smalspoormuseum.php"> <img  src="images/rsz_excursies_3.jpg" alt="Boerderij" style="max-width: 100%;"></a>
 
 <div class="textareaexcursies">
   <h4>Excursie Aspergeboerderij Sandur + Smalspoormuseum</h4>

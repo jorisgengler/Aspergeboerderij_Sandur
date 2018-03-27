@@ -23,7 +23,9 @@
 
      <div id="freshfoodacademy1" class="mobielversie freshfoodacademy1">
        <h3>Fresh Food Academy</h3>
+       <p>
        <br>
+       <p>
        Voorlichting over gezond en lekker eten vinden wij heel belangrijk. Niet alleen over asperges, maar over verse groenten in het algemeen.
        Daarom hebben we de Fresh Food Academy opgezet, waar je meer te weten kunt komen over het verwerken van verse groente.
        Maar waar je ook kunt proeven of samen met een kok aan de slag kunt gaan.
@@ -32,7 +34,7 @@
        Probeer eens onze vegetarische aspergekroket,  gegrilde asperges omwikkeld met Italiaanse ham,
        broodje gezond met kaas, eitje, ham en asperges of een traditioneel aspergemaaltijd.
        <br><br>
-
+       </p>
      </div>
 
     <div class="mobielversie freshfoodacademy2">
@@ -53,7 +55,7 @@
 
 
       <h1>Culinair genieten</h1>
-
+      <p>
       Lekker genieten van onze gerechten zonder zelf aan de slag te hoeven?
       Maar wel met de gezellige keukengeluiden en reuring van een professionele keuken?
       Onze Fresh Food Academy is vooral een geniet, ontdek en blijf-even-zitten-om-te-proeven-met-je-gezin-en-vrienden-ruimte.
@@ -65,23 +67,44 @@
       De chef bereidt á la minute de diverse gerechten.
 <br><br>
 
-
+      </p>
 
     </div>
 
     <div class="mobielversie freshfoodacademy5">
-      <b>
-          De datums voor de culinaire avonden die tot nu toe gepland zijn:
-      <br><br>
+      <h1>De datums voor de culinaire avonden zijn:</h1>
+<pre><p><b><A HREF="https://www.facebook.com/events/525861074481228/" target="_blank"><i class="rightarrow"></i> Zaterdag 28 april	          Sandur Culinaire Asperge Experience</A>
+<A HREF="https://www.facebook.com/events/176313796338012/" target="_blank"><i class="rightarrow"></i> Woensdag 2 mei	          Aspergebuffet</A>
+<A HREF="https://www.facebook.com/events/180964412630681/" target="_blank"><i class="rightarrow"></i> Vrijdag 18 mei	                  Sandur Culinaire Asperge Experience</A>
+<A HREF="https://www.facebook.com/events/455223118229176/" target="_blank"><i class="rightarrow"></i> Zaterdag 26 mei	          Aspergebuffet</A>
+<A HREF="https://www.facebook.com/events/1055597114579691/" target="_blank"><i class="rightarrow"></i> Zondag 17 juni		          Aspergebuffet</A>
+</b></p></pre>
 
-          Zaterdag 28 april<br>
-          Woensdag 2 mei (Voor ouders, opa's en oma's, met kinderen)<br>
-          vrijdag 18 mei<br>
-          Maandag 21 mei (2ᵉ Pinksterdag)<br>
-          Zaterdag 26 mei<br>
-          Zondag 17 juni (Vaderdag)
-      </b>
-            </p>
+<br>
+<h1>Sandur Culinaire Asperge Experience</h1>
+<p>
+Onze chef-kok zal van 18:30-21:30 een 8-tal verrassende aspergegerechten voor u bereiden. U kunt een ontspannen avond verwachten. Met onze open keuken kunt u letterlijk een kijkje in de keuken nemen en zien hoe de verschillende aspergegerechten worden bereid.
+<br>
+Kosten: €37,50 per persoon (inclusief welkomstdrankje en koffie/thee na).
+<br><br>
+</p>
+<h1>Aspergebuffet</h1>
+<p>
+Kom van 18:00-20:00 genieten van live cooking en bedien uzelf tijdens ons lopend buffet.
+<br>
+Kosten: €24,50 per volwassene (exclusief dranken).
+<br>
+Kinderen €1,50 per levensjaar (4-12 jaar).
+<br><br>
+Vooraf aan het diner geven wij een rondleiding op de boerderij van een half uur. Bij het aanmelden graag aangeven of u hier gebruik van wilt maken.
+<br><br>
+Wij kunnen de avond organiseren bij een minimum aantal aanmeldingen van 20 personen. Maximaal kunnen er 50 personen deelnemen (vol=vol).
+<br><br>
+Aanmelden kan in de winkel of door een e-mail te sturen naar <A HREF="info@aspergeboerderijsandur.nl">info@aspergeboerderijsandur.nl</A>
+met daarin uw naam, het aantal personen dat u wilt aanmelden en eventuele dieetwensen.
+</p>
+
+
     </div>
     <div class="mobielversie freshfoodacademy6">
       <video id="videoElementId" controls loop muted>
@@ -102,6 +125,10 @@
      });
      </script>
     </div>
+
+<div class="mobielversie freshfoodacademy7"></div>
+<div class="mobielversie freshfoodacademy8"></div>
+
       <div class="sectiontussen1"></div><!-- lege tussen ruimte van 7vh -->
 </div><!--/end grid-->
 
