@@ -182,7 +182,7 @@
   Als u op de hoogte wilt blijven van onze activiteiten, laat dan hier uw e-mailadres achter.
 
   <div class="nieuwsbrief" id="nieuwsbrief">
-  <form name="nieuwsbrief" action="action_page_nieuwsbrief.php" onsubmit="return validateForm2();" method="post">
+  <form name="nieuwsbrief" action="action_page_nieuwsbrief.php"  method="post">
   <label for="email"></label>
   <br>
   <input style="width: 90%;" type="text" id="email" name="email" placeholder="Email">
@@ -190,7 +190,7 @@
   <input type="submit" name="register2" value="Meld me aan"> </input>
   </form>
   </div>
-
+<!-- onsubmit="return validateForm2();" -->
 </p>
 
 <div class="socialmedia center">
