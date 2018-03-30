@@ -1,5 +1,7 @@
 <head>
 
+
+
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -12,7 +14,16 @@
   gtag('config', 'UA-112070976-1');
 </script>
 
+
 <title>Aspergeboerderij Sandur</title>
+<meta name="description" content="Aspergeboerderij Sandur. Welkom Bij Aspergeboerderij Sandur. U vindt ons aan de Vaart Noordzijde 186 Nieuw Amsterdam. Verse asperges zijn er vanaf april tot en met eind juni. Tevens verzorgen wij rondleidingen voor groepen. SBS6 op de aspergeboerderij!">
+<meta http-equiv="content-language" content="NL">
+<meta name="robots" content="all">
+<meta name="title" content="Aspergeboerderij Sandur">
+
+
+
+
 <link rel="icon" href="images/tablogo.png">
 <!-- CSS -->
 <link rel="stylesheet" type="text/css" media="all" href="css/style.css">

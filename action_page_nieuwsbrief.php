@@ -17,6 +17,9 @@ mysqli_free_result($result); // make memory $result empty
 
 if ($conn->query($sql) === TRUE){ //when data has been put in database
      include 'php_action/mailerzend.php';// If the e-mail isn't in the database, an e-mail will be sent to the user
+
+     // header("Location: ../Nieuwsbrief.php"); // When e-mail exists
+     // header('Location: https://www.aspergeboerderijsandur.nl/Nieuwsbrief.php');
      exit(); //stop script when mail is sent
    }
 else{

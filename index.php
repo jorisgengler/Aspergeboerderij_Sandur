@@ -169,7 +169,7 @@
   </p2>
     <br><br><br>
     <div class="center">
-      <a href="#"><div class="button buttoncolorgreen"> <p>Overzicht van activiteiten & excursies</p></div></a>
+      <a href="excursies.php"><div class="button buttoncolorgreen"> <p>Overzicht van activiteiten & excursies</p></div></a>
     </div>
 </div><!-- /section6 -->
 
@@ -182,12 +182,12 @@
   Als u op de hoogte wilt blijven van onze activiteiten, laat dan hier uw e-mailadres achter.
 
   <div class="nieuwsbrief" id="nieuwsbrief">
-  <form name="nieuwsbrief" action="action_page_nieuwsbrief.php" onsubmit="return validateForm();" method="post">
+  <form name="nieuwsbrief" action="action_page_nieuwsbrief.php" onsubmit="return validateForm2();" method="post">
   <label for="email"></label>
   <br>
   <input style="width: 90%;" type="text" id="email" name="email" placeholder="Email">
   <br><br>
-  <input type="submit" name="register" value="Meld me aan"> </input>
+  <input type="submit" name="register2" value="Meld me aan"> </input>
   </form>
   </div>
 

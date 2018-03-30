@@ -100,7 +100,7 @@ Vooraf aan het diner geven wij een rondleiding op de boerderij van een half uur.
 <br><br>
 Wij kunnen de avond organiseren bij een minimum aantal aanmeldingen van 20 personen. Maximaal kunnen er 50 personen deelnemen (vol=vol).
 <br><br>
-Aanmelden kan in de winkel of door een e-mail te sturen naar <A HREF="info@aspergeboerderijsandur.nl">info@aspergeboerderijsandur.nl</A>
+Aanmelden kan in de winkel of door een e-mail te sturen naar <a href='m&#97;i&#108;to&#58;inf&#111;&#37;40%61spe&#37;72&#103;&#37;65&#98;%6&#70;er&#100;er%69%6Asandur&#46;nl'>&#105;nf&#111;&#64;asp&#101;&#114;geb&#111;erderi&#106;sandu&#114;&#46;&#110;l</a>
 met daarin uw naam, het aantal personen dat u wilt aanmelden en eventuele dieetwensen.
 </p>
 

@@ -7,7 +7,7 @@
 
 
           <p>
-            <a class="logo" href="https://www.asperge.jorisgengler.nl"><img class="logo" src="/images/logo.png" alt="Logo"></a>
+            <a class="logo" href="https://www.aspergeboerderijsandur.nl"><img class="logo" src="/images/logo.png" alt="Logo"></a>
           </p>
       </div><!--/slogan-->
 

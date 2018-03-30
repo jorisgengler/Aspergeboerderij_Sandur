@@ -75,8 +75,7 @@
   <div class="deboerderij deboerderij10">
         <img class="deboerderijfotoformaat" src="images/rsz_Markt_Emmen.jpg" alt="winkel_(2)">
   </div>
-  <div class="deboerderij deboerderij11"></div>
-  <div class="deboerderij deboerderij12">
+  <div class="deboerderij deboerderij11">
     <h2>Gezond</h2>
     <p>
     Asperges zijn erg gezond. Ze zijn rijk aan vitamines en mineralen en bevatten weinig calorieën.
@@ -85,6 +84,16 @@
     van bloedstolling tot huid en van haar tot botten; asperges zijn goed voor het hele lijf!
     </p>
   </div>
+  <div class="deboerderij deboerderij12">
+        <br /><br />
+    &quot;Dit bedrijf is aangesloten bij Telersvereniging ZON, de verkoop van onze producten geschiedt via ZON fruit & vegetables. &quot;
+    <br /><br /><br />
+    <img src="images/foto10_thumbnail.jpg" width="200" height="100" margin-left="50" />
+    <img src="images/foto11_thumbnail.jpg" width="100" height="100" />
+  </div>
+
+
+
 
 
   <div class="sectiontussen1"></div><!-- lege tussen ruimte van 7vh -->
